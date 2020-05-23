@@ -1,20 +1,26 @@
 import React from "react";
-import ReactTwitchEmbedVideo from "react-twitch-embed-video";
-import { Row } from "react-bootstrap";
 
 const TwitchComponent = () => {
   return (
     <>
-      <Row className='d-flex justify-content-center'>
-        <ReactTwitchEmbedVideo
-          channel='teamevotv'
-          autoplay
-          height='600'
-          muted={false}
-          targetId='twitch-embed'
-          width='1000'
-        />
-      </Row>
+      <iframe
+        title='video'
+        src='https://player.twitch.tv/?channel=teamevotv&muted=true'
+        height='600'
+        width='950'
+        frameborder='0'
+        scrolling='no'
+        allowfullscreen='true'
+      />
+      <iframe
+        title='chat'
+        id='chat_embed'
+        frameborder='0'
+        src='https://www.twitch.tv/embed/teamevotv/chat?darkpopout'
+        height='600'
+        width='350'
+        style={{ marginLeft: 50 }}
+      />
     </>
   );
 };
