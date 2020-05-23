@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "KoratakiW01-Book";
+  src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot");
+  src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.svg#KoratakiW01-Book")
+      format("svg");
+}
+
 .twitch-container .logo-evo {
   height: 50px;
 }
@@ -12,4 +27,22 @@
 
 .tv-buttons {
   background: #02060c;
+}
+
+.streamers-title {
+  background-color: #d8d8d8;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.streamers {
+  font-family: "KoratakiW01-Book";
+  font-style: italic;
+  font-weight: bold;
+}
+
+.color-white {
+  color: #e0e0e1;
 }
