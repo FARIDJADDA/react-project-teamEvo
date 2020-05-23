@@ -1,0 +1,107 @@
+[
+  {
+    "type": "link",
+    "url": "/teams",
+    "text": "RAINBOW SIX",
+    "title": "TEAMS",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/teams",
+    "text": "VSFIGHT",
+    "title": "TEAMS",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/teams",
+    "text": "OVERWATCH",
+    "title": "TEAMS",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/achievements",
+    "text": "ACHIEVEMENTS",
+    "title": "TEAMS",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/webTv",
+    "text": "WEB TV",
+    "title": "TEAM EVO",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/about/staff",
+    "text": "STAFF",
+    "title": "TEAM EVO",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "about/valuesAndVisions",
+    "text": "VALUES",
+    "title": "TEAM EVO",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/shop",
+    "text": "SHOP",
+    "title": "TEAM EVO",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "https://twitter.com/TeamEvoAB",
+    "text": "TWITTER",
+    "title": "SOCIALS",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "https://www.youtube.com/channel/UCNk4BPBPEE5fwJPqZPq_Drg",
+    "text": "YOUTUBE",
+    "title": "SOCIALS",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "https://fr.linkedin.com/company/team-evo-ab",
+    "text": "LINKEDIN",
+    "title": "SOCIALS",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "https://discord.com/",
+    "text": "DISCORD",
+    "title": "SOCIALS",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/about/legalNotice",
+    "text": "LEGAL NOTICE",
+    "title": "PLUS",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/",
+    "text": "CONTACT@EVO.SE",
+    "title": "PLUS",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/",
+    "text": "PRESS KIT",
+    "title": "PLUS",
+    "enabled": "true"
+  }
+]

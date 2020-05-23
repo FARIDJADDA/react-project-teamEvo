@@ -1,0 +1,30 @@
+.player-container {
+  height: 155px;
+  max-width: 220px;
+  width: auto;
+  background: no-repeat top
+    url(https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/PlayersImage%2Fmaillot%20dos.png?alt=media&token=643112c8-64c4-43f8-8ac5-f1ae036c049b);
+  background-size: 80%;
+  position: relative;
+  margin: 20px 0;
+}
+
+.player-container .player-infos {
+  background-color: #06141e;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  padding: 5px 0 2px 0;
+}
+
+.player-social {
+  width: 100%;
+  align-items: center;
+}
+
+.player-social a {
+  margin: 0 1px;
+  font-size: 12px;
+}

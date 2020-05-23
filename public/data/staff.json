@@ -1,0 +1,37 @@
+[
+  {
+    "firstName": "PRENOM",
+    "lastName": "NOM",
+    "role": "ROLE DE STAFF",
+    "nickName": "PSEUDO",
+    "image": "IMAGE PHOTO"
+  },
+  {
+    "firstName": "PRENOM",
+    "lastName": "NOM",
+    "role": "ROLE DE STAFF",
+    "nickName": "PSEUDO",
+    "image": "IMAGE PHOTO"
+  },
+  {
+    "firstName": "PRENOM",
+    "lastName": "NOM",
+    "role": "ROLE DE STAFF",
+    "nickName": "PSEUDO",
+    "image": "IMAGE PHOTO"
+  },
+  {
+    "firstName": "PRENOM",
+    "lastName": "NOM",
+    "role": "ROLE DE STAFF",
+    "nickName": "PSEUDO",
+    "image": "IMAGE PHOTO"
+  },
+  {
+    "firstName": "PRENOM",
+    "lastName": "NOM",
+    "role": "ROLE DE STAFF",
+    "nickName": "PSEUDO",
+    "image": "IMAGE PHOTO"
+  }
+]

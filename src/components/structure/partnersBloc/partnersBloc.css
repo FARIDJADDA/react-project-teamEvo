@@ -1,0 +1,19 @@
+.partnersbloc {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: #06141e;
+}
+
+.partnersbloc .width30 {
+  width: 30%;
+}
+
+.partnersbloc .center {
+  text-align: center;
+}
+
+.partnersbloc img {
+  height: 30px;
+  margin: 10px 0;
+}

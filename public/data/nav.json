@@ -1,0 +1,78 @@
+[
+  {
+    "type": "link",
+    "url": "/",
+    "text": "HOME",
+    "enabled": "true",
+    "component": "HomeComponent"
+  },
+  {
+    "type": "link",
+    "url": "/teams",
+    "text": "TEAMS",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/achievements",
+    "text": "ACHIEVEMENTS",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/shop",
+    "text": "SHOP",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/tweetdeck",
+    "text": "TWEETDECK",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/webTv",
+    "text": "WEB TV",
+    "enabled": "true"
+  },
+  {
+    "type": "link",
+    "url": "/partners",
+    "text": "PARTNERS",
+    "enabled": "true"
+  },
+
+  {
+    "type": "link",
+    "url": "/about",
+    "text": "ABOUT",
+    "enabled": "true",
+    "children": [
+      {
+        "type": "link",
+        "url": "/staff",
+        "text": "STAFF",
+        "enabled": "true"
+      },
+      {
+        "type": "link",
+        "url": "/valuesAndVisions",
+        "text": "VALUES AND VISIONS",
+        "enabled": "true"
+      },
+      {
+        "type": "link",
+        "url": "/cdpr",
+        "text": "CDPR",
+        "enabled": "true"
+      },
+      {
+        "type": "link",
+        "url": "/legalNotice",
+        "text": "LEGAL NOTICE",
+        "enabled": "true"
+      }
+    ]
+  }
+]
