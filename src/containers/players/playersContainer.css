@@ -49,3 +49,7 @@
 .policeTitle {
   font-family: "Bebas Neue", cursive;
 }
+
+.rightPosition a:hover {
+  text-decoration: none;
+}

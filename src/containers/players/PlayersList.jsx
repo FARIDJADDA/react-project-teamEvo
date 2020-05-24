@@ -55,7 +55,9 @@ function PlayersList() {
               </Col>
               <Col>
                 <div className='rightPosition'>
-                  <h2 className='titleAchievements'>ACHIEVEMENTS</h2>
+                  <a href='./achievements'>
+                    <h2 className='titleAchievements'>ACHIEVEMENTS</h2>
+                  </a>
                 </div>
               </Col>
             </Row>
@@ -63,7 +65,7 @@ function PlayersList() {
         </Row>
         <Row>
           <Col className='offset-2 col-8'>
-            <Row className='mb-5 justify-content-md-center'>
+            <Row className='mb-5 '>
               {players
                 .filter((player) => player.game === state.game)
                 .map((player, index) => {
