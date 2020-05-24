@@ -10,7 +10,7 @@ import {
 
 export default ({ player: { firstName, lastName, role, nationality } }) => {
   return (
-    <Col className='col-4 d-flex justify-content-center'>
+    <Col className='col-6 col-md-4 d-flex justify-content-center'>
       <Row className='player-container'>
         <Col className='player-infos'>
           <div>

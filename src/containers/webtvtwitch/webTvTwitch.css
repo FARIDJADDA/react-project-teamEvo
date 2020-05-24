@@ -26,11 +26,11 @@
 }
 
 .tv-buttons {
-  background: #02060c;
+  background:	#0b0f14;
 }
 
 .streamers-title {
-  background-color: #d8d8d8;
+  background: linear-gradient(to bottom,#ebebec 60%, #aaaaaa);
   color: black;
   text-align: center;
   font-weight: bold;
@@ -41,6 +41,7 @@
   font-family: "KoratakiW01-Book";
   font-style: italic;
   font-weight: bold;
+  background:	#0b0f14;
 }
 
 .color-white {
