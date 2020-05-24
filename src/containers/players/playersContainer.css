@@ -9,3 +9,43 @@
   padding: 0;
   margin: 0 0 0 5px;
 }
+
+.gameImage {
+  height: 40px;
+  opacity: 0.5;
+}
+
+.bg-game {
+  background-color: #06141e;
+}
+
+.btn-game:focus {
+  box-shadow: none;
+}
+
+.btn-game:focus .gameImage {
+  opacity: 1;
+}
+
+.titleAchievements {
+  background-color: #c8d600;
+  color: black;
+  letter-spacing: 0.3rem;
+  line-height: 0.8;
+}
+
+.yellowBox {
+  height: 10px;
+  width: 8px;
+  background-color: #c8d600;
+  padding-top: 30px;
+}
+
+.rightPosition {
+  position: absolute;
+  right: 0;
+}
+
+.policeTitle {
+  font-family: "Bebas Neue", cursive;
+}

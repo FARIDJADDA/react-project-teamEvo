@@ -1,5 +1,6 @@
 import React from "react";
 import "./players.css";
+import { Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
@@ -9,7 +10,7 @@ import {
 
 export default ({ player: { firstName, lastName, role, nationality } }) => {
   return (
-    <div className='col-4'>
+    <Col className='col-4 text-center'>
       <div className='player-container'>
         <div className='player-infos'>
           <div>
@@ -38,6 +39,6 @@ export default ({ player: { firstName, lastName, role, nationality } }) => {
           </div>
         </div>
       </div>
-    </div>
+    </Col>
   );
 };

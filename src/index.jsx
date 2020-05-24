@@ -12,6 +12,7 @@ import { composeWithDevTools } from "redux-devtools-extension";
 import { fetchAllPlayers } from "./actions/players";
 import { fetchAllNav } from "./actions/navs/navs";
 import { fetchAllFooter } from "./actions/footer/footer";
+import { fetchAllGames } from "./actions/games/game";
 
 export const store = createStore(
   rootReducer,
@@ -22,6 +23,7 @@ store.dispatch(fetchAllPartners());
 store.dispatch(fetchAllPlayers());
 store.dispatch(fetchAllNav());
 store.dispatch(fetchAllFooter());
+store.dispatch(fetchAllGames());
 
 ReactDOM.render(
   <React.StrictMode>

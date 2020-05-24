@@ -46,3 +46,15 @@
 .color-white {
   color: #e0e0e1;
 }
+
+.activePlayer:hover {
+  background-color: #0c1412;
+}
+
+.activePlayer {
+  border-radius: 10px;
+}
+
+.activePlayer div:active {
+  color: #c8d600;
+}
