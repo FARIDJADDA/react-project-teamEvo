@@ -1,7 +1,6 @@
 .player-container {
   height: 155px;
-  max-width: 220px;
-  width: auto;
+  width: 220px;
   background: no-repeat top
     url(https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/PlayersImage%2Fmaillot%20dos.png?alt=media&token=643112c8-64c4-43f8-8ac5-f1ae036c049b);
   background-size: 80%;

@@ -63,7 +63,7 @@ function PlayersList() {
         </Row>
         <Row>
           <Col className='offset-2 col-8'>
-            <Row className='mb-5'>
+            <Row className='mb-5 justify-content-md-center'>
               {players
                 .filter((player) => player.game === state.game)
                 .map((player, index) => {
