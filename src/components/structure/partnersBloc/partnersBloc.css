@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 20px 0;
-  background-color: #06141e;
+  background-color: #131b23;
 }
 
 .partnersbloc .width30 {
@@ -14,6 +14,6 @@
 }
 
 .partnersbloc img {
-  height: 30px;
-  margin: 10px 0;
+  height: 40px;
+  
 }

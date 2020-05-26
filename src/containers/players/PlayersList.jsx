@@ -46,7 +46,7 @@ function PlayersList() {
         </Row>
         <Row>
           <Col className='offset-2 col-8'>
-            <Row className='policeTitle'>
+            <Row className='policeTitle pt-5'>
               <Col>
                 <Row>
                   <div className='yellowBox'></div>
