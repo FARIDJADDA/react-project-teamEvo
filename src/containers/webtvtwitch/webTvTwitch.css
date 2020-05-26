@@ -14,11 +14,12 @@
 }
 
 .twitch-container .logo-evo {
-  height: 50px;
+  height: 70px;
 }
 
 .bg-twitch {
-  background: #0c1412;
+  padding: 50px 0 70px 0;
+  background: url('https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/WebTvImage%2FTWITCHPNG.png?alt=media&token=88a59020-0494-46d8-bade-b2f763e5daa9');
 }
 
 .tv-buttons img {

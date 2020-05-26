@@ -1,0 +1,25 @@
+.about-content {
+  display: flex;
+  overflow: hidden;
+}
+.about-content img {
+  height: 320px;
+  margin: 15px 0 20px 0;
+}
+.about-content h1 {
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.about-content p {
+  font-size: 20px;
+  font-weight: 1;
+  text-align: justify;
+  text-transform: lowercase;
+}
+.divImage {
+  padding: 0 15px;
+  width: 600px;
+  position: absolute;
+  right: 0;
+}

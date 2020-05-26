@@ -6,6 +6,7 @@ import footer from "./footerReducers";
 import staff from "./staffReducers";
 import games from "./gameReducers";
 import cdpr from "./cdprReducers";
+import about from "./aboutReducers"
 
 export default combineReducers({
   partners,
@@ -14,5 +15,9 @@ export default combineReducers({
   footer,
   staff,
   games,
+<<<<<<< HEAD
   cdpr,
+=======
+  about,
+>>>>>>> feature/01
 });
