@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "KoratakiW01-Book";
+  src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot");
+  src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.svg#KoratakiW01-Book")
+      format("svg");
+}
+
+.headerCdpr {
+  text-align: center;
+  padding-top: 10px;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2FAAA-GA2019-41.jpg?alt=media&token=3571d1e0-b3b1-4c27-9e37-45aaa9df9a1e);
+  height: 20vh;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-bottom: solid 3px #c8d600;
+}
+
+.headerCdpr p {
+  font-family: "KoratakiW01-Book";
+  font-size: 30px;
+  margin: 0;
+}
+
+.yellowColor {
+  color: #c8d600;
+}

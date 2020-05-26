@@ -1,18 +1,10 @@
 import React from "react";
-import { Row, Container } from "react-bootstrap";
-
-const styles = {
-  height: "80v",
-};
+import Cdpr from "../../containers/Cdpr/Cdpr";
 
 const AboutCdpr = () => {
   return (
     <>
-      <Container style={styles}>
-        <Row>
-          <p>CDPR</p>
-        </Row>
-      </Container>
+      <Cdpr />
     </>
   );
 };
