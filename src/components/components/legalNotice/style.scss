@@ -1,67 +1,76 @@
 @font-face {
-    font-family: "KoratakiW01-Book";
-    src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot");
-    src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff") format("woff"), url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.svg#KoratakiW01-Book") format("svg");
+  font-family: "KoratakiW01-Book";
+  src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot");
+  src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.svg#KoratakiW01-Book")
+      format("svg");
 }
 
 .legal {
-    --image: url(https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/LegalNoticeImage%2FAAA-GA2019-41.jpg?alt=media&token=f5d5989c-11dd-46d9-89aa-5ddb21cd93a1);
-    .header-legal {
-        background-image: var(--image);
-        background-repeat: no-repeat;
-        background-size: 200%;
-        height: 20vh;
-        background-position: center;
-        padding-top: 7vh;
-        filter: grayscale(400%) contrast(200%);
-        h2 {
-            text-align: center;
-            font-family: "KoratakiW01-Book";
-            font-style: italic;
-            font-size: x-large;
-            font-weight: bold;
-            color: white;
-            letter-spacing: 1vw;
-            text-transform: capitalize;
-        }
+  --image: url(https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/LegalNoticeImage%2FAAA-GA2019-41.jpg?alt=media&token=f5d5989c-11dd-46d9-89aa-5ddb21cd93a1);
+  .header-legal {
+    background-image: var(--image);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    height: 20vh;
+    background-position: center;
+    padding-top: 7vh;
+    filter: grayscale(400%) contrast(200%);
+    h2 {
+      text-align: center;
+      font-family: "KoratakiW01-Book";
+      font-style: italic;
+      font-size: x-large;
+      font-weight: bold;
+      color: white;
+      letter-spacing: 1vw;
+      text-transform: capitalize;
     }
-    a {
-        color: greenyellow;
+  }
+  a {
+    color: greenyellow;
+  }
+  & > .legal-content {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    border-top: solid 2px #c8d600;
+  }
+  ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    & > li {
+      counter-increment: my-awesome-counter;
+      & > li::before {
+        content: counter(my-awesome-counter) ". ";
+        font-weight: bold;
+      }
+      & > h3::before {
+        content: counter(my-awesome-counter) ". ";
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+      & > h3 {
+        text-transform: capitalize;
+        font-size: initial;
+        font-weight: bold;
+        margin-top: 2vh;
+      }
     }
-    &>.legal-content {
-        padding-left: 10vw;
-        padding-right: 10vw;
-        border-top: solid 2px #c8d600;
-    }
-    ol {
-        list-style: none;
-        counter-reset: my-awesome-counter;
-        &>li {
-            counter-increment: my-awesome-counter;
-            &>li::before {
-                content: counter(my-awesome-counter) ". ";
-                font-weight: bold;
-            }
-            &>h3::before {
-                content: counter(my-awesome-counter) ". ";
-                font-weight: bold;
-                text-transform: capitalize;
-            }
-            &>h3 {
-                text-transform: capitalize;
-                font-size: initial;
-                font-weight: bold;
-                margin-top: 2vh;
-            }
-        }
-    }
-    ul {
-        list-style: none;
-        margin-bottom: 5vh;
-        padding: 0;
-    }
-    p {
-        text-align: justify;
-        padding-right: 2vw;
-    }
+  }
+  ul {
+    list-style: none;
+    margin-bottom: 5vh;
+    padding: 0;
+  }
+  p {
+    text-align: justify;
+    padding-right: 2vw;
+  }
 }
