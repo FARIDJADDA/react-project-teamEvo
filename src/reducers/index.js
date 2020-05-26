@@ -5,6 +5,7 @@ import navs from "./navReducers";
 import footer from "./footerReducers";
 import staff from "./staffReducers";
 import games from "./gameReducers";
+import about from "./aboutReducers"
 
 export default combineReducers({
   partners,
@@ -13,4 +14,5 @@ export default combineReducers({
   footer,
   staff,
   games,
+  about,
 });

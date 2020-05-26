@@ -11,6 +11,7 @@ import AboutStaffPage from "./../pages/AboutStaffPage";
 import AboutValuesAndVisions from "./../pages/AboutValuesAndVisions";
 import AboutCdpr from "./../pages/AboutCdpr";
 import AboutLegalNotice from "./../pages/AboutLegalNotice";
+import AboutPage from "../pages/AboutPage"
 /**
  * @param  {} { partners} represent an object composed from the partners object and also the onDelete dispatcher
  *
@@ -27,7 +28,7 @@ function RouteList() {
           <Route path={"/tweetDeck"} component={TweetDeckPage} />
           <Route path={"/webTv"} component={WebTvPage} />
           <Route path={"/partners"} component={PartnersPage} />
-          {/* <Route exact path={"/about"} /> */}
+          <Route exact path={"/about"} component={AboutPage} />
           <Route path={"/about/staff"} component={AboutStaffPage} />
           <Route
             path={"/about/valuesAndVisions"}

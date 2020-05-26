@@ -49,10 +49,46 @@
 }
 
 .dropdown-item:hover {
-  background-color: #06141e;
+  background-color: #131b23;
   transform: none;
 }
 
 .navlink {
   margin-top: 5px;
+}
+
+.drop-btn {
+  background-color: #131b23;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+
+.drop-down-content {
+  display: none;
+  position: absolute;
+  background-color: #131b23;
+  z-index: 1;
+}
+
+.drop-down-content a {
+  color: white;
+  text-decoration: none;
+  display:block;
+  padding: 0px 14px;
+}
+
+.drop-down:hover .drop-down-content {
+display:block;
+}
+
+.drop-btn:hover {
+text-decoration: none;
+color: white;
+}
+
+.drop-btn:focus{
+  box-shadow: none;
+  text-decoration: none;
+  color: white;
 }
