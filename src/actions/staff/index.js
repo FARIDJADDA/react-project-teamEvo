@@ -10,7 +10,6 @@ export const fetchAllStaff = () => (dispatch) => {
   api
     .get("staff.json")
     .then((response) => {
-      console.log(response.data);
       dispatch(fetchStaff(response.data));
     })
     .catch((error) => {

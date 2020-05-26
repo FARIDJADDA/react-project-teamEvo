@@ -14,6 +14,7 @@ import { fetchAllNav } from "./actions/navs/navs";
 import { fetchAllFooter } from "./actions/footer/footer";
 import { fetchAllGames } from "./actions/games/game";
 import { fetchAllCdpr } from "./actions/Cdpr/Cdpr";
+import { fetchAllStaff } from "./actions/staff/index";
 
 export const store = createStore(
   rootReducer,
@@ -26,6 +27,7 @@ store.dispatch(fetchAllNav());
 store.dispatch(fetchAllFooter());
 store.dispatch(fetchAllGames());
 store.dispatch(fetchAllCdpr());
+store.dispatch(fetchAllStaff());
 
 ReactDOM.render(
   <React.StrictMode>
