@@ -6,6 +6,7 @@ import {
   faArrowCircleDown,
   faCircle,
 } from "@fortawesome/free-solid-svg-icons";
+
 const sideBar = {
   position: "fixed",
   height: "100vh",
@@ -90,20 +91,20 @@ const title = {
 const HomePage = () => {
   return (
     <>
-      <Container fluid='true' dark>
+      <Container fluid="true" dark>
         <Row fluid>
-          <Col fluid md='6' lg='6'>
+          <Col fluid md="6" lg="6">
             <section
-              id='section1'
-              name='section1'
+              id="section1"
+              name="section1"
               style={{ ...section, ...section1 }}>
               <img
-                alt='LogoPage1'
-                rel='preconnect'
-                src='https://via.placeholder.com/500x140/000000/FFFFFF/?text=LogoPage1'
+                alt="LogoPage1"
+                rel="preconnect"
+                src="https://via.placeholder.com/500x140/000000/FFFFFF/?text=LogoPage1"
               />
               <h2 style={title}>Lorem ipsum dolor sit amet, consectetur.</h2>
-              <Button variant='success'>Achievements Page</Button>
+              <Button variant="success">Achievements Page</Button>
               <p style={paragraph}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Temporibus dolores cumque ut natus sequi consectetur tenetur
@@ -113,17 +114,17 @@ const HomePage = () => {
                 atque totam veritatis
               </p>
             </section>
-            <section id='section2' name='section2' style={section}>
+            <section id="section2" name="section2" style={section}>
               <img
-                alt='LogoPage2'
-                rel='preconnect'
-                src='https://via.placeholder.com/500x140/000000/FFFFFF/?text=LogoPage2'
+                alt="LogoPage2"
+                rel="preconnect"
+                src="https://via.placeholder.com/500x140/000000/FFFFFF/?text=LogoPage2"
               />
 
               <h2 style={title}>
                 Animi, sequi expedita sit minus omnis facilis
               </h2>
-              <Button variant='success'>Achievements Page</Button>
+              <Button variant="success">Achievements Page</Button>
               <p style={paragraph}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Temporibus dolores cumque ut natus sequi consectetur tenetur
@@ -136,7 +137,7 @@ const HomePage = () => {
               </p>
             </section>
           </Col>
-          <Col fluid md='9' lg='9'>
+          <Col fluid md="9" lg="9">
             <div>
               <div style={test0}></div>
             </div>
@@ -149,18 +150,18 @@ const HomePage = () => {
           </Col>
         </Row>
       </Container>
-      <div style={sideBar} id='sidebar' class='list-group'>
-        <a href='#app'>
-          <FontAwesomeIcon icon={faArrowCircleUp} color='grey' size='1x' />
+      <div style={sideBar} id="sidebar" class="list-group">
+        <a href="#app">
+          <FontAwesomeIcon icon={faArrowCircleUp} color="grey" size="1x" />
         </a>
-        <a href='#section1'>
-          <FontAwesomeIcon icon={faCircle} color='grey' size='0,9x' />
+        <a href="#section1">
+          <FontAwesomeIcon icon={faCircle} color="grey" size="0,9x" />
         </a>
-        <a href='#section2'>
-          <FontAwesomeIcon icon={faCircle} color='grey' size='0,9x' />
+        <a href="#section2">
+          <FontAwesomeIcon icon={faCircle} color="grey" size="0,9x" />
         </a>
-        <a href='#footer'>
-          <FontAwesomeIcon icon={faArrowCircleDown} color='grey' size='1x' />
+        <a href="#footer">
+          <FontAwesomeIcon icon={faArrowCircleDown} color="grey" size="1x" />
         </a>
       </div>
     </>

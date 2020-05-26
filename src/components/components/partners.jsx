@@ -16,7 +16,7 @@ const PartnerComponent = ({ partner: { name, website, image } }) => {
         <div> Toto </div>
         <h2>{name}</h2>
         <p>
-          <img src={image} alt='logo' style={{ height: 50 }} />
+          <img src={image} alt="logo" style={{ height: 50 }} />
           {website}
         </p>
       </div>

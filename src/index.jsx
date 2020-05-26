@@ -16,6 +16,8 @@ import { fetchAllGames } from "./actions/games/game";
 import { fetchAllCdpr } from "./actions/Cdpr/Cdpr";
 import { fetchAllStaff } from "./actions/staff/index";
 import { fetchAllAbout } from "./actions/about/about";
+import { fetchAllVision } from "./actions/vision/vision";
+import { fetchAllLegal } from "./actions/legal/legal";
 
 export const store = createStore(
   rootReducer,
@@ -30,6 +32,8 @@ store.dispatch(fetchAllGames());
 store.dispatch(fetchAllCdpr());
 store.dispatch(fetchAllStaff());
 store.dispatch(fetchAllAbout());
+store.dispatch(fetchAllVision());
+store.dispatch(fetchAllLegal());
 
 ReactDOM.render(
   <React.StrictMode>
