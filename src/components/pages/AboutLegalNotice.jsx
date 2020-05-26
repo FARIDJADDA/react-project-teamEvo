@@ -1,16 +1,18 @@
+import { useSelector } from "react-redux";
 import React from "react";
-import { Row, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import HeaderComponent from "../components/legalNotice/HeaderComponent";
+import ItemList from "../components/legalNotice/ItemList";
+import "../components/legalNotice/style.scss";
 
-const AboutLegalNotice = () => {
+export default () => {
+  const data = useSelector((state) => state.legal);
   return (
     <>
-      <Container>
-        <Row>
-          <p>Legal Notice</p>
-        </Row>
+      <Container fluid className="legal">
+        <HeaderComponent title="Legal Notice" />
+        <ItemList data={data} />
       </Container>
     </>
   );
 };
-
-export default AboutLegalNotice;

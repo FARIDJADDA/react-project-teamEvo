@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "KoratakiW01-Book";
+    src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot");
+    src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff") format("woff"), url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.svg#KoratakiW01-Book") format("svg");
+}
+
+.btn-header {
+    background-color: #c8d600;
+    font-family: "KoratakiW01-Book";
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    filter: none;
+    border-radius: 0;
+    margin: 0 auto 0 auto;
+}
+
+.content {
+    --image1: url(https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/ValuesImage%2F2018GA-aAa-48.webp?alt=media&token=6ae8ea42-5d58-4e1d-9806-9cd4f78f05c1);
+    --image2: url(https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/ValuesImage%2Ffond-valorant.png?alt=media&token=98f036be-9e6e-4d09-b95b-e1932947d17f);
+    --image3: url(https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/ValuesImage%2Ffond-r6.png?alt=media&token=fc6370fa-56e2-48db-a7c8-cb68b972d004);
+    --image4: url(https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/ValuesImage%2Ffond-overwatch.png?alt=media&token=086b82ae-8efd-46c1-bb0c-3167dfdf5b29);
+    --image5: url(https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/ValuesImage%2Ffond-r6-2.png?alt=media&token=4d5c5232-a77b-45c6-afe9-b2df45d96773);
+    .header-content {
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: center;
+        min-height: 20vh;
+        max-height: 25vh;
+        margin-bottom: 1vh;
+        padding-top: 7vh;
+        &>.col {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h2 {
+            font-family: "KoratakiW01-Book";
+            font-style: italic;
+            font-size: x-large;
+            font-weight: bold;
+            color: white;
+            letter-spacing: 1vw;
+            text-transform: capitalize;
+            align-items: center;
+            margin: 0 auto 0 auto;
+            &>span {
+                color: #c8d600;
+            }
+        }
+    }
+    .header-content:nth-child(1) {
+        background-image: var(--image1);
+    }
+    .header-content:nth-child(3) {
+        background-image: var(--image2);
+        border-top: solid 2px #c8d600;
+    }
+    .header-content:nth-child(5) {
+        background-image: var(--image3);
+        border-top: solid 2px #c8d600;
+    }
+    a {
+        color: greenyellow;
+    }
+    &>.principal-content {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        border-top: solid 2px #c8d600;
+        .bgLight {
+            width: auto;
+            padding-left: 20vw;
+            padding-right: 11vw;
+            margin-left: -20vw;
+            margin-right: -11vw;
+            background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--image4) center center;
+            background-size: 200%;
+            position: relative;
+            left: 0;
+            color: black;
+            overflow-x: visible;
+            &:last-of-type {
+                background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--image5) center center;
+                background-size: 200%;
+            }
+            &>h3 {
+                color: black;
+            }
+        }
+    }
+    ol {
+        list-style: none;
+        &>li {
+            &>p>a {
+                padding-left: 27vw;
+                text-align: center;
+                color: #c8d600;
+            }
+            &>h3 {
+                text-transform: capitalize;
+                font-size: initial;
+                font-weight: bold;
+                margin-top: 2vh;
+                color: #c8d600;
+            }
+        }
+    }
+    ul {
+        list-style: none;
+        margin-bottom: 5vh;
+        padding: 0;
+        &>li {
+            &>h3 {
+                text-transform: capitalize;
+                font-size: initial;
+                font-weight: bold;
+                margin-top: 2vh;
+            }
+        }
+    }
+    p {
+        text-align: justify;
+        padding-right: 2vw;
+    }
+}
