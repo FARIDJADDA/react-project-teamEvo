@@ -10,7 +10,7 @@ import {
 const StreamerComponent = ({ playersData }) => {
   return (
     <>
-      <Col className='col-4 p-2 color-white'>
+      <Col className='col-4 p-2'>
         <div type='button' className='activePlayer'>
           <div className='d-flex justify-content-center p-1'>
             {playersData.nickName}
