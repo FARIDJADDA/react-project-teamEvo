@@ -7,6 +7,17 @@ import StreamerComponent from "../../components/components/twitch/StreamerCompon
 
 const WebTvTwitch = () => {
   const players = useSelector((state) => state.players);
+  const [state, setState] = React.useState({
+    id: "",
+  });
+  const [channel, setChannel] = React.useState("teamevotv");
+
+  const handleClick = (playerId, channelName) => {
+    setState({ id: playerId });
+    channelName = channelName ? channelName : "teamevotv";
+    setChannel(channelName);
+  };
+
   return (
     <>
       <Container fluid className='twitch-container'>
@@ -18,7 +29,7 @@ const WebTvTwitch = () => {
           />
         </Row>
         <Row className='d-flex justify-content-center'>
-          <TwitchComponent />
+          <TwitchComponent channelName={channel} />
         </Row>
         <Row className='tv-buttons d-flex justify-content-center p-4'>
           <a
@@ -54,7 +65,14 @@ const WebTvTwitch = () => {
               {players
                 .filter((player) => player.isStreamer === "true")
                 .map((player, index) => {
-                  return <StreamerComponent playersData={player} key={index} />;
+                  return (
+                    <StreamerComponent
+                      playersData={player}
+                      handleClick={handleClick}
+                      stateId={state.id}
+                      key={index}
+                    />
+                  );
                 })}
             </Row>
           </Col>

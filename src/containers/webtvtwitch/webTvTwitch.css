@@ -45,6 +45,7 @@
   background: #0b0f14;
 }
 
+<<<<<<< HEAD
 .activePlayer:focus,
 .activePlayer:hover {
   color: #c8d600 !important;
@@ -52,4 +53,17 @@
 .activePlayer svg:focus,
 .activePlayer svg:hover {
   color: #c8d600 !important;
+=======
+.color-white {
+  color: #e0e0e1;
+}
+
+.hoverPlayer:hover,
+.hoverPlayer:hover svg {
+  color: #c8d600 !important;
+}
+
+.activePlayer {
+  color: #c8d600;
+>>>>>>> c1e74a1914603e70e7c9ef524347f986e04421d9
 }
