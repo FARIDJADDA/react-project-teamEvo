@@ -31,7 +31,7 @@ function PlayersList() {
                   <Col>
                     <button
                       onClick={() => handleClick(game.title)}
-                      className='btn btn-link btn-game'>
+                      className='btn btn-link btn-game' autofocus={game.autofocus}>
                       <img
                         alt='gameImage'
                         className='gameImage'

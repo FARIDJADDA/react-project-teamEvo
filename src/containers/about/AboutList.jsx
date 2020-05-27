@@ -16,7 +16,6 @@ function AboutList() {
         {about.map((about, index) => {
           return <AboutComponent about={about} key={index} />;
         })}
-        {console.log(about)}
       </Col>
     </Row>
   );

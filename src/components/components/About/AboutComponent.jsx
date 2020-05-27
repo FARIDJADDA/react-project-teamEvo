@@ -10,14 +10,20 @@ const AboutComponent = ({ about }) => {
           <>
             <img src={about.image} alt='maillot' />
             <div className='divImage mb-2'>
+            <div className="d-flex justify-content-end" >
               <h1 className='pt-sm-2'>{about.title}</h1>
+              <div className='yellowBox-right'></div>
+            </div>
               <p>{about.text}</p>
             </div>
           </>
         ) : (
           <div>
-            <h1 className='pt-sm-2'>{about.title}</h1>
-            <p className='pb-2'>{about.text}</p>
+            <div className="d-flex">
+              <div className='yellowBox-left'></div>
+              <h1 className='pt-sm-2'>{about.title}</h1>
+            </div>
+              <p className='pb-2'>{about.text}</p>
           </div>
         )}
       </Col>
