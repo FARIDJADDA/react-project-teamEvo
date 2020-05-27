@@ -3,8 +3,7 @@
     "type": "link",
     "url": "/",
     "text": "HOME",
-    "enabled": "true",
-    "component": "HomeComponent"
+    "enabled": "true"
   },
   {
     "type": "link",

@@ -16,7 +16,7 @@ const Cdpr = () => {
           </Col>
         </Row>
       </Container>
-      <Container className='contentCdpr'>
+      <Container fluid className='contentCdpr'>
         <Row>
           <Col>
             {cdpr.map((element) => {

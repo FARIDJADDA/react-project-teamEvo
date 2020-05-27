@@ -39,6 +39,9 @@
 }
 
 .hashtag {
-    font-size: 45px;
+    font-size: 60px;
+    position: relative;
+    top: 15px;
+    margin-right: 8px;
 }
 
