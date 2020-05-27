@@ -7,7 +7,9 @@ import { Container, Row, Col, Spinner } from "react-bootstrap";
 function PlayersList() {
   const players = useSelector((state) => state.players);
   const games = useSelector((state) => state.games);
-  const [state, setState] = React.useState({ game: "overwatch" });
+  const [state, setState] = React.useState({
+    game: "overwatch",
+  });
 
   const handleClick = (title) => {
     setState({ game: title });
@@ -30,8 +32,14 @@ function PlayersList() {
                 return (
                   <Col>
                     <button
-                      onClick={() => handleClick(game.title)}
-                      className='btn btn-link btn-game' autofocus={game.autofocus}>
+                      onClick={() => {
+                        handleClick(game.title);
+                      }}
+                      className={
+                        state.game === game.title
+                          ? "btn btn-link btn-game activeGame"
+                          : "btn btn-link btn-game"
+                      }>
                       <img
                         alt='gameImage'
                         className='gameImage'
