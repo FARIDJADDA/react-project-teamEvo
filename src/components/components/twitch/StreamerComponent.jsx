@@ -21,16 +21,6 @@ const StreamerComponent = ({ playersData, stateId, handleClick }) => {
             {playersData.nickName}
           </div>
           <div className='d-flex justify-content-center'>
-<<<<<<< HEAD
-            <a className='p-1' href={playersData.youtube}>
-              <FontAwesomeIcon color='white' icon={faYoutube} />
-            </a>
-            <a className='p-1' href={playersData.twitter}>
-              <FontAwesomeIcon color='white' icon={faTwitter} />
-            </a>
-            <a className='p-1' href={playersData.twitch}>
-              <FontAwesomeIcon color='white' icon={faTwitch} />
-=======
             <a
               className='p-1'
               href={playersData.youtube}
@@ -72,7 +62,6 @@ const StreamerComponent = ({ playersData, stateId, handleClick }) => {
                 }
                 icon={faTwitch}
               />
->>>>>>> c1e74a1914603e70e7c9ef524347f986e04421d9
             </a>
           </div>
         </div>
