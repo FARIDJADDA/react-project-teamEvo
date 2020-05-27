@@ -45,11 +45,11 @@
   background: #0b0f14;
 }
 
-.color-white {
-  color: #e0e0e1;
-}
-
 .activePlayer:focus,
 .activePlayer:hover {
+  color: #c8d600 !important;
+}
+.activePlayer svg:focus,
+.activePlayer svg:hover {
   color: #c8d600 !important;
 }

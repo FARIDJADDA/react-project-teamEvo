@@ -17,13 +17,13 @@ const StreamerComponent = ({ playersData }) => {
           </div>
           <div className='d-flex justify-content-center'>
             <a className='p-1' href={playersData.youtube}>
-              <FontAwesomeIcon className='color-white' icon={faYoutube} />
+              <FontAwesomeIcon color='white' icon={faYoutube} />
             </a>
             <a className='p-1' href={playersData.twitter}>
-              <FontAwesomeIcon className='color-white' icon={faTwitter} />
+              <FontAwesomeIcon color='white' icon={faTwitter} />
             </a>
             <a className='p-1' href={playersData.twitch}>
-              <FontAwesomeIcon className='color-white' icon={faTwitch} />
+              <FontAwesomeIcon color='white' icon={faTwitch} />
             </a>
           </div>
         </div>
