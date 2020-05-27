@@ -19,7 +19,7 @@ const FullNavBar = () => {
   return (
     <>
       <Navbar className='navbarcustom' variant='dark' expand='lg'>
-        <Navbar.Brand className='white' href='/'>
+        <Navbar.Brand className='white' href='/home'>
           <img
             className='logo-rond'
             alt='logo-rond'
