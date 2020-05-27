@@ -113,6 +113,18 @@
     "role": "Role(DPS)",
     "nationality": "Nationalité",
     "nickName": "Pseudo",
+    "isStreamer": "true",
+    "game": "dragonBall",
+    "twitter": "https://twitter.com/",
+    "youtube": "https://www.youtube.com/",
+    "twitch": "https://www.twitch.tv/"
+  },
+  {
+    "firstName": "Prenom",
+    "lastName": "Nom",
+    "role": "Role(DPS)",
+    "nationality": "Nationalité",
+    "nickName": "Pseudo",
     "isStreamer": "false",
     "game": "dragonBall",
     "twitter": "https://twitter.com/",
