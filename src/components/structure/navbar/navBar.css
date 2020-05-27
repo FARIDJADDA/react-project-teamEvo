@@ -22,6 +22,11 @@
 .white {
   color: white !important;
 }
+.white:focus,
+.white:hover {
+  color: #c8d600 !important;
+  text-decoration: none;
+}
 
 .navbarcustom a {
   color: #ffffff !important;
@@ -54,6 +59,10 @@
 }
 
 .navlink {
+  margin: 5px 5px 0 5px;
+}
+
+.navlink {
   margin-top: 5px;
 }
 
@@ -74,20 +83,20 @@
 .drop-down-content a {
   color: white;
   text-decoration: none;
-  display:block;
+  display: block;
   padding: 0px 14px;
 }
 
 .drop-down:hover .drop-down-content {
-display:block;
+  display: block;
 }
 
 .drop-btn:hover {
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: white;
 }
 
-.drop-btn:focus{
+.drop-btn:focus {
   box-shadow: none;
   text-decoration: none;
   color: white;

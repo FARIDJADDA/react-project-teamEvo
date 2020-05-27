@@ -12,6 +12,7 @@ import {
   faYoutube,
   faTwitch,
 } from "@fortawesome/free-brands-svg-icons";
+import { NavLink } from "react-router-dom";
 
 const FullNavBar = () => {
   const navs = useSelector((state) => state.navs);
@@ -35,12 +36,9 @@ const FullNavBar = () => {
           <Nav className='mr-auto white'>
             {navs.map((route, index) => {
               return !route.children ? (
-                <Nav.Link
-                  className='white navlink'
-                  href={route.url}
-                  key={index}>
+                <NavLink className='white navlink' to={route.url} key={index}>
                   {route.text}
-                </Nav.Link>
+                </NavLink>
               ) : (
                 <NavDropdownCusto data={route} index={index} key={index} />
               );
