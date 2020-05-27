@@ -7,7 +7,9 @@ import { Container, Row, Col, Spinner } from "react-bootstrap";
 function PlayersList() {
   const players = useSelector((state) => state.players);
   const games = useSelector((state) => state.games);
-  const [state, setState] = React.useState({ game: "overwatch" });
+  const [state, setState] = React.useState({
+    game: "overwatch",
+  });
 
   const handleClick = (title) => {
     setState({ game: title });
@@ -26,12 +28,18 @@ function PlayersList() {
         <Row className='bg-game'>
           <Col className='offset-2 col-8 d-flex justify-content-center'>
             <Row className='p-2'>
-              {games.map((game) => {
+              {games.map((game, index) => {
                 return (
-                  <Col>
+                  <Col key={index}>
                     <button
-                      onClick={() => handleClick(game.title)}
-                      className='btn btn-link btn-game' autofocus={game.autofocus}>
+                      onClick={() => {
+                        handleClick(game.title);
+                      }}
+                      className={
+                        state.game === game.title
+                          ? "btn btn-link btn-game activeGame"
+                          : "btn btn-link btn-game"
+                      }>
                       <img
                         alt='gameImage'
                         className='gameImage'
@@ -55,7 +63,10 @@ function PlayersList() {
               </Col>
               <Col>
                 <div className='rightPosition'>
-                  <a href='./achievements'>
+                  <a
+                    href='./achievements'
+                    target='_blank'
+                    rel='noopener noreferrer'>
                     <h2 className='titleAchievements'>ACHIEVEMENTS</h2>
                   </a>
                 </div>

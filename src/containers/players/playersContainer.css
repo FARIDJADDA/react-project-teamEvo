@@ -23,7 +23,7 @@
   box-shadow: none;
 }
 
-.btn-game:focus .gameImage {
+.activeGame .gameImage {
   opacity: 1;
 }
 
@@ -51,7 +51,7 @@
 
 .policeTitle {
   font-family: "Bebas Neue", cursive;
-  margin: 0 30PX 0 10px;
+  margin: 0 30px 0 10px;
 }
 
 .rightPosition a:hover {

@@ -24,7 +24,8 @@ const WebTvTwitch = () => {
           <a
             className='m-2'
             href='https://www.twitch.tv/subs/teamevotv'
-            target='_blank' rel="noopener noreferrer">
+            target='_blank'
+            rel='noopener noreferrer'>
             <img
               src='https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/WebTvImage%2Fsub.png?alt=media&token=cc9d1420-345b-4405-bb10-ec5af59b1f77'
               alt='logo-evo'
@@ -33,7 +34,8 @@ const WebTvTwitch = () => {
           <a
             className='m-2'
             href='https://m.twitch.tv/teamevotv/'
-            target='_blank' rel="noopener noreferrer">
+            target='_blank'
+            rel='noopener noreferrer'>
             <img
               src='https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/WebTvImage%2Fteam-evo.png?alt=media&token=75fea16c-aa18-4494-8c1c-87236c104e7c'
               alt='logo-evo'
@@ -52,11 +54,7 @@ const WebTvTwitch = () => {
               {players
                 .filter((player) => player.isStreamer === "true")
                 .map((player, index) => {
-                  return (
-                    <>
-                      <StreamerComponent playersData={player} key={index} />
-                    </>
-                  );
+                  return <StreamerComponent playersData={player} key={index} />;
                 })}
             </Row>
           </Col>
