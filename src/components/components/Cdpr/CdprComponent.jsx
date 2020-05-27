@@ -6,7 +6,7 @@ const CdprComponent = ({ data }) => {
     <>
       <>
         <h6>{data.title}</h6>
-        <p>{data.paragraphe}</p>
+        <p className='para'>{data.paragraphe}</p>
       </>
     </>
   );

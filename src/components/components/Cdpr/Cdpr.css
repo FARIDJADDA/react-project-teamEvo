@@ -2,4 +2,12 @@ h6 {
   text-decoration: underline;
   color: #c8d600;
   font-weight: bold;
+  font-size: 17px;
+}
+
+.para {
+  font-size: 17px;
+  font-weight: 1;
+  text-align: justify;
+  text-transform: lowercase;
 }

@@ -10,13 +10,13 @@ const Cdpr = () => {
     <>
       <Container fluid>
         <Row>
-          <Col className='headerCdpr'>
+          <Col className='headerCdpr p-5'>
             <p>Team Evo</p>
             <p className='yellowColor'>Privacy Policy</p>
           </Col>
         </Row>
       </Container>
-      <Container className='contentCdpr'>
+      <Container>
         <Row>
           <Col>
             {cdpr.map((element) => {

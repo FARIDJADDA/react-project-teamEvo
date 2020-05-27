@@ -14,20 +14,23 @@
 }
 
 .headerCdpr {
+  font-style: italic;
   text-align: center;
-  padding-top: 10px;
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2FAAA-GA2019-41.jpg?alt=media&token=3571d1e0-b3b1-4c27-9e37-45aaa9df9a1e);
-  height: 20vh;
-  background-position: center;
-  background-size: 100%;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2Favaa-06-25.png?alt=media&token=a50f9414-1697-4dac-b033-96f14e320b19);
+  background-size: 100% 320%;
+  background-position: center 35%;
+  height: 26vh;
   background-repeat: no-repeat;
-  border-bottom: solid 3px #c8d600;
+  border-bottom: solid 2px #c8d600;
 }
 
 .headerCdpr p {
   font-family: "KoratakiW01-Book";
   font-size: 30px;
   margin: 0;
+  letter-spacing: 10px;
+  line-height: 1.2;
+  font-weight: bold;
 }
 
 .yellowColor {

@@ -13,7 +13,7 @@ export default ({ title, button }) => {
   };
   return (
     <>
-      <Row className="header-legal">
+      <Row className='header-legal p-5'>
         <Col>
           <h2>{title}</h2>
           <ButtonDetails />
