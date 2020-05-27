@@ -8,14 +8,14 @@ const TwitchComponent = () => {
         src='https://player.twitch.tv/?channel=teamevotv&muted=true'
         height='600'
         width='950'
-        frameborder='0'
+        frameBorder='0'
         scrolling='no'
-        allowfullscreen='true'
+        allowFullScreen={true}
       />
       <iframe
         title='chat'
         id='chat_embed'
-        frameborder='0'
+        frameBorder='0'
         src='https://www.twitch.tv/embed/teamevotv/chat?darkpopout'
         height='600'
         width='350'
