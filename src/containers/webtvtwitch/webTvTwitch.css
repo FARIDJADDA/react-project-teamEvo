@@ -49,7 +49,11 @@
   color: #e0e0e1;
 }
 
-.activePlayer:focus,
-.activePlayer:hover {
+.hoverPlayer:hover,
+.hoverPlayer:hover svg {
   color: #c8d600 !important;
+}
+
+.activePlayer {
+  color: #c8d600;
 }
