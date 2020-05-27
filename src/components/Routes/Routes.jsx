@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import TeamsPage from "../pages/TeamsPage";
 import AchievementsPage from "../pages/AchievementsPage";
@@ -23,7 +28,10 @@ function RouteList() {
       <Router>
         <FullNavBar />
         <Switch>
-          <Route exact path={"/"} children={HomePage} />
+          <Route exact path={"/"}>
+            <Redirect to='/home' />
+          </Route>
+          <Route exact path={"/home"} children={HomePage} />
           <Route path={"/teams"} children={TeamsPage} />
           <Route path={"/achievements"} children={AchievementsPage} />
           <Route path={"/shop"} children={ShopPage} />

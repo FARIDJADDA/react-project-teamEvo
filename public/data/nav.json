@@ -1,7 +1,7 @@
 [
   {
     "type": "link",
-    "url": "/",
+    "url": "/home",
     "text": "HOME",
     "enabled": "true"
   },
