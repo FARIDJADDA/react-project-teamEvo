@@ -28,9 +28,9 @@ function PlayersList() {
         <Row className='bg-game'>
           <Col className='offset-2 col-8 d-flex justify-content-center'>
             <Row className='p-2'>
-              {games.map((game) => {
+              {games.map((game, index) => {
                 return (
-                  <Col>
+                  <Col key={index}>
                     <button
                       onClick={() => {
                         handleClick(game.title);
@@ -63,7 +63,10 @@ function PlayersList() {
               </Col>
               <Col>
                 <div className='rightPosition'>
-                  <a href='./achievements'>
+                  <a
+                    href='./achievements'
+                    target='_blank'
+                    rel='noopener noreferrer'>
                     <h2 className='titleAchievements'>ACHIEVEMENTS</h2>
                   </a>
                 </div>
