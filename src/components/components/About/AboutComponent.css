@@ -6,6 +6,11 @@
   height: 320px;
   margin: 15px 0 20px 0;
 }
+
+.divImage h1 {
+text-align: right;
+}
+
 .about-content h1 {
   font-size: 30px;
   font-family: "Bebas Neue", cursive;
@@ -22,4 +27,22 @@
   width: 600px;
   position: absolute;
   right: 0;
+}
+
+.yellowBox-left {
+  height: 23px;
+  width: 8px;
+  position: relative;
+  top: 12px;
+  margin-right: 5px;
+  background-color: #c8d600!important ;
+}
+
+.yellowBox-right {
+  height: 23px;
+  width: 8px;
+  position: relative;
+  top: 12px;
+  margin-left: 5px;
+  background-color: #c8d600!important ;
 }

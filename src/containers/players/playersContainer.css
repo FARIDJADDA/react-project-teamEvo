@@ -35,10 +35,13 @@
 }
 
 .yellowBox {
-  height: 10px;
+  height: 23px;
   width: 8px;
+  position: relative;
+  top: 5px;
+  margin-right: 9px;
+  margin-left: 30px;
   background-color: #c8d600;
-  padding-top: 30px;
 }
 
 .rightPosition {
@@ -48,6 +51,7 @@
 
 .policeTitle {
   font-family: "Bebas Neue", cursive;
+  margin: 0 30PX 0 10px;
 }
 
 .rightPosition a:hover {
