@@ -18,7 +18,7 @@ const RenderData = ({ data }) => {
 export default ({ data }) => {
   return (
     <>
-      <Row fluid className="principal-content">
+      <Row fluid className='principal-content'>
         <Col>
           <ol>
             <RenderData data={data} />
