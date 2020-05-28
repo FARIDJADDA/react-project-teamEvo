@@ -16,7 +16,6 @@ export default ({ title, button }) => {
   return (
     <>
       <Row className="header-content">
-        <Col xs={3}></Col>
         <Col>
           <h2
             dangerouslySetInnerHTML={{
@@ -26,7 +25,6 @@ export default ({ title, button }) => {
           </h2>
           <ButtonDetails />
         </Col>
-        <Col></Col>
       </Row>
     </>
   );

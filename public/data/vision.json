@@ -1,5 +1,5 @@
 [{
-        "header": { "title": "Our Values", "button": "#weareevo" },
+        "header": { "title": "Our Values", "button": "#WEAREEVO" },
         "content": [{
                 "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod ",
                 "title": "titre"
@@ -20,7 +20,7 @@
         ]
     },
     {
-        "header": { "title": "Code of <span>Conduct</span>" },
+        "header": { "title": "Code of <br/><span>Conduct</span>" },
         "content": [{
                 "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod ",
                 "title": "titre"
