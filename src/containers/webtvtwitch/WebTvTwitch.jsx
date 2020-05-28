@@ -13,6 +13,7 @@ const WebTvTwitch = () => {
   const [channel, setChannel] = React.useState("teamevotv");
 
   const handleClick = (playerId, channelName) => {
+    window.scrollTo({top:200});
     setState({ id: playerId });
     channelName = channelName ? channelName : "teamevotv";
     setChannel(channelName);
