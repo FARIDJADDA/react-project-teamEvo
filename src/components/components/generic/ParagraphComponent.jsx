@@ -11,7 +11,7 @@ export default ({ text, title, variant }) => {
         {text === "teamevo.eu/codeofconduct" ? (
           <>
             <div style={{ textAlign: "center" }}>
-              <a href="https://teamevo.eu/files/An-esports-Code-of-Conduct.pdf">
+              <a href='https://teamevo.eu/files/An-esports-Code-of-Conduct.pdf'>
                 <span style={{ color: "#c8d600", textDecoration: "underline" }}>
                   Our Code of Conduct
                 </span>
