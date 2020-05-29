@@ -9,6 +9,7 @@ import cdpr from "./cdprReducers";
 import about from "./aboutReducers";
 import vision from "./visionReducer";
 import legal from "./legalReducer";
+import achievements from "./achievementReducers";
 
 export default combineReducers({
   partners,
@@ -17,11 +18,9 @@ export default combineReducers({
   footer,
   staff,
   games,
-
   cdpr,
-
   about,
-
   vision,
   legal,
+  achievements,
 });
