@@ -1,0 +1,46 @@
+.achievement-content img {
+  height: 60px;
+  width: 60px;
+  margin-right: 30px;
+  margin-left: -45px;
+}
+
+.achievement-content {
+  border-bottom: 7px solid #c8d600;
+  margin-bottom: 120px;
+}
+
+.achievement-content p {
+  letter-spacing: 1px;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 10px;
+  font-size: 22px;
+  line-height: 0.8;
+  margin-bottom: 0;
+}
+
+.achievement-details .result {
+  position: absolute;
+  right: 0;
+  margin: auto 0 auto 0;
+}
+
+.achievement-details {
+  margin: 20px 0;
+}
+
+.yellow-bar {
+  border-bottom: 7px solid #c8d600;
+  width: 37.5%;
+}
+
+.year-title {
+  width: 25%;
+  text-align: center;
+  font-family: "KoratakiW01-Book";
+  font-style: italic;
+  font-size: 1.5vw;
+  font-weight: bold;
+  letter-spacing: 8px;
+  margin-bottom: -10px;
+}

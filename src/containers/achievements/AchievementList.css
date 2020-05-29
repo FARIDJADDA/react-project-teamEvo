@@ -13,35 +13,37 @@
       format("svg");
 }
 
-.header-title h1 {
+.achievement-title h1 {
   font-family: "KoratakiW01-Book";
-  font-size: 36px;
+  font-size: 28px;
+  font-weight: bold;
   letter-spacing: 10px;
+  padding-top: 20px;
   font-style: italic;
+  margin-bottom: 0;
+  color: #ebebeb;
   text-align: center;
 }
 
-.header-title h2 {
-  font-family: "Bebas Neue";
-  font-size: 38px;
+.achievement-title h2 {
+  font-family: "KoratakiW01-Book";
+  font-size: 26px;
+  padding-top: 0;
+  color: #ebebeb;
+  font-weight: bold;
+  font-style: italic;
   letter-spacing: 10px;
+  text-align: center;
 }
 
-.header-bloc {
-  background: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2Favaa-06-25.png?alt=media&token=a50f9414-1697-4dac-b033-96f14e320b19");
-  background-size: 100% 320%;
-  background-position: center 35%;
-  border-bottom: solid 3px #c8d600;
-}
-
-.yellow-title {
-  color: #c8d600;
-  letter-spacing: 2px;
-}
-
-.hashtag {
-  font-size: 60px;
+.hashtag-little {
+  font-size: 44px;
   position: relative;
-  top: 15px;
+  top: 10px;
   margin-right: 8px;
+}
+
+.bg-cup {
+  background: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/AchievementImg%2Favaa-04-25.png?alt=media&token=3c9c0fca-f88e-490e-9bcf-4db6fd998e5a");
+  background-position: 50% 35%;
 }
