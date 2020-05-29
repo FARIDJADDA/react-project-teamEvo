@@ -4,7 +4,7 @@ import "./ChiefComponent.css";
 import { Col } from "react-bootstrap";
 const ChiefComponent = ({ data }) => {
   return (
-    <Col className='d-flex flex-wrap justify-content-center offset-2 col-3 card-border'>
+    <Col className='d-flex justify-content-center offset-2 col-3 card-border'>
       <Card className='cardElement'>
         <Card.Img className='imageChief' variant='top' src={data.image} />
         <Card.Body className='affichage'>
