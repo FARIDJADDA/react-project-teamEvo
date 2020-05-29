@@ -16,21 +16,21 @@
   {
     "firstName": "PRENOM",
     "lastName": "NOM",
-    "role": "ROLE DE STAFF",
+    "role": "manager",
     "nickName": "PSEUDO",
     "image": "https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/AvatarImage%2Favatar-staff.jpg?alt=media&token=2c3b8b98-eb4b-4838-bcc9-c65edeb99928"
   },
   {
     "firstName": "PRENOM",
     "lastName": "NOM",
-    "role": "ROLE DE STAFF",
+    "role": "manager",
     "nickName": "PSEUDO",
     "image": "https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/AvatarImage%2Favatar-staff.jpg?alt=media&token=2c3b8b98-eb4b-4838-bcc9-c65edeb99928"
   },
   {
     "firstName": "PRENOM",
     "lastName": "NOM",
-    "role": "ROLE DE STAFF",
+    "role": "manager",
     "nickName": "PSEUDO",
     "image": "https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/AvatarImage%2Favatar-staff.jpg?alt=media&token=2c3b8b98-eb4b-4838-bcc9-c65edeb99928"
   }

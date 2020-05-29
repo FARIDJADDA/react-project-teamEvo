@@ -18,6 +18,7 @@ import { fetchAllStaff } from "./actions/staff/index";
 import { fetchAllAbout } from "./actions/about/about";
 import { fetchAllVision } from "./actions/vision/vision";
 import { fetchAllLegal } from "./actions/legal/legal";
+import { fetchAllStaffText } from "./actions/staffText.json/index";
 import { fetchAllAchievements } from "./actions/achievements/achievements";
 
 export const store = createStore(
@@ -35,6 +36,7 @@ store.dispatch(fetchAllStaff());
 store.dispatch(fetchAllAbout());
 store.dispatch(fetchAllVision());
 store.dispatch(fetchAllLegal());
+store.dispatch(fetchAllStaffText());
 store.dispatch(fetchAllAchievements());
 
 ReactDOM.render(
