@@ -23,3 +23,9 @@
 .card-border {
   border-radius: 0;
 }
+
+.nickName {
+  color: #c8d600;
+  font-size: 20px;
+  font-family: "Bebas Neue", cursive;
+}
