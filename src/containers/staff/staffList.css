@@ -1,0 +1,30 @@
+.yellowBox1 {
+  background-color: yellow;
+  width: 10px;
+  height: 15px;
+  padding-top: 40px;
+}
+.yellowBox2 {
+  background-color: yellow;
+  width: 10px;
+  height: 30px;
+  padding-top: 15px;
+}
+
+.text-content {
+  background-color: #131b23;
+}
+
+.element1 {
+  padding-top: 30px;
+}
+.element3 {
+  padding-top: 30px;
+}
+
+.yellowBox3 {
+  background-color: yellow;
+  width: 10px;
+  height: 30px;
+  padding-top: 15px;
+}

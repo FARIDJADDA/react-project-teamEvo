@@ -18,6 +18,7 @@ import { fetchAllStaff } from "./actions/staff/index";
 import { fetchAllAbout } from "./actions/about/about";
 import { fetchAllVision } from "./actions/vision/vision";
 import { fetchAllLegal } from "./actions/legal/legal";
+import { fetchAllStaffText } from "./actions/staffText.json/index";
 
 export const store = createStore(
   rootReducer,
@@ -34,6 +35,7 @@ store.dispatch(fetchAllStaff());
 store.dispatch(fetchAllAbout());
 store.dispatch(fetchAllVision());
 store.dispatch(fetchAllLegal());
+store.dispatch(fetchAllStaffText());
 
 ReactDOM.render(
   <React.StrictMode>
