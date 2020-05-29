@@ -1,13 +1,12 @@
 import React from "react";
-import { Row, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import AchievementList from "../../containers/achievements/AchievementList";
 
 const AchievementsPage = () => {
   return (
     <>
-      <Container>
-        <Row>
-          <p>Achievements</p>
-        </Row>
+      <Container fluid className='bg-cup'>
+        <AchievementList />
       </Container>
     </>
   );

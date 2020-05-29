@@ -2,22 +2,22 @@
   {
     "date": "MOIS 2020",
     "competition": "COMPETITION",
-    "result": "1er",
+    "result": 1,
     "year": "2020",
-    "GameImage": "https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/imageEvo%2Fgame%2Fr6-blanc.png?alt=media&token=7daf33a5-b20f-48a5-a94e-6431cd27ba7d"
+    "gameImage": "https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/imageEvo%2Fgame%2Fr6-blanc.png?alt=media&token=7daf33a5-b20f-48a5-a94e-6431cd27ba7d"
   },
   {
     "date": "MOIS 2020",
     "competition": "COMPETITION",
-    "result": "1er",
+    "result": 1,
     "year": "2020",
-    "GameImage": "https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/imageEvo%2Fgame%2Fr6-blanc.png?alt=media&token=7daf33a5-b20f-48a5-a94e-6431cd27ba7d"
+    "gameImage": "https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/imageEvo%2Fgame%2Fr6-blanc.png?alt=media&token=7daf33a5-b20f-48a5-a94e-6431cd27ba7d"
   },
   {
     "date": "MOIS 2020",
     "competition": "COMPETITION",
-    "result": "1er",
+    "result": 1,
     "year": "2020",
-    "GameImage": "https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/imageEvo%2Fgame%2Foverwatch-blanc.png?alt=media&token=10f468ae-9ae6-4e18-9a56-ca23229331c7"
+    "gameImage": "https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/imageEvo%2Fgame%2Foverwatch-blanc.png?alt=media&token=10f468ae-9ae6-4e18-9a56-ca23229331c7"
   }
 ]
