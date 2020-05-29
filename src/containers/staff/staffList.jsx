@@ -11,7 +11,7 @@ function StaffList() {
   const staffText = useSelector((state) => state.staffText);
   return (
     <>
-      <Container fluid>
+      <Container fluid className='staff-content'>
         <Row className=' d-flex offset-2 col-6 element1'>
           <div className='yellowBox1'></div>
           <h1>STAFF</h1>
@@ -48,6 +48,11 @@ function StaffList() {
             .map((person, index) => {
               return <ManagerComponent key={index} data={person} />;
             })}
+        </Row>
+        <Row className='d-flex justify-content-center last-title'>
+          <h2 className='little-title'>
+            #WeAre<span className='yellow-title'>Evo</span>
+          </h2>
         </Row>
       </Container>
     </>

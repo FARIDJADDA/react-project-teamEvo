@@ -1,14 +1,18 @@
 .yellowBox1 {
   background-color: yellow;
   width: 10px;
-  height: 15px;
-  padding-top: 40px;
+  height: 30px;
+  padding-top: 0;
+  margin-right: 4px;
+  margin-top: 6px;
 }
 .yellowBox2 {
   background-color: yellow;
   width: 10px;
-  height: 30px;
+  height: 20px;
   padding-top: 15px;
+  margin-right: 4px;
+  margin-top: 5px;
 }
 
 .text-content {
@@ -25,6 +29,37 @@
 .yellowBox3 {
   background-color: yellow;
   width: 10px;
-  height: 30px;
+  height: 23px;
   padding-top: 15px;
+  margin-top: 6px;
+  margin-right: 3px;
+}
+
+.element1,
+.element2 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.little-title {
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  margin-right: 8px;
+  color: #ebebeb;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 10px;
+  text-align: center;
+  font-family: "KoratakiW01-Book";
+}
+
+.yellow-title {
+  color: #c8d600;
+  letter-spacing: 2px;
+  font-family: "KoratakiW01-Book";
+  font-size: 20px;
+}
+
+.last-title {
+  padding-bottom: 40px;
 }
