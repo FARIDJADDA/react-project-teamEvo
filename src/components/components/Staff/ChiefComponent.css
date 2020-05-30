@@ -16,7 +16,7 @@
   width: 250px;
   text-align: center;
   border: none;
-  border-left: solid 9px yellow;
+  border-left: solid 9px #c8d600;
   border-radius: 0;
 }
 
@@ -28,4 +28,20 @@
   color: #c8d600;
   font-size: 20px;
   font-family: "Bebas Neue", cursive;
+}
+
+.staff-pseudo {
+  width: 290px;
+  text-align: center;
+}
+.staff-pseudo p {
+  font-size: 15px;
+  line-height: 1;
+  font-family: "Bebas Neue", cursive;
+  color: #c8d600;
+}
+
+.text-card {
+  line-height: 0.7;
+  padding-top: 5px;
 }

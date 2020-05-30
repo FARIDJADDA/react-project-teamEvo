@@ -1,5 +1,5 @@
 .yellowBox1 {
-  background-color: yellow;
+  background-color: #c8d600;
   width: 10px;
   height: 30px;
   padding-top: 0;
@@ -7,7 +7,7 @@
   margin-top: 6px;
 }
 .yellowBox2 {
-  background-color: yellow;
+  background-color: #c8d600;
   width: 10px;
   height: 20px;
   padding-top: 15px;
@@ -17,6 +17,7 @@
 
 .text-content {
   background-color: #131b23;
+  text-align: justify;
 }
 
 .element1 {
@@ -27,7 +28,7 @@
 }
 
 .yellowBox3 {
-  background-color: yellow;
+  background-color: #c8d600;
   width: 10px;
   height: 23px;
   padding-top: 15px;
