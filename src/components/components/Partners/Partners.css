@@ -29,9 +29,16 @@
   background-color: #131b23;
 }
 
+.bloc-partner2 {
+  background-repeat: no-repeat;
+  background-size: 19rem;
+  background-blend-mode: luminosity;
+  background-color: #131b23;
+  background-position: right;
+}
+
 .bg-first {
   background-color: #0b0f14;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/JerseyImage%2Fmaillot%20face.png?alt=media&token=58a03db0-1062-4242-87db-01b3793c7ee7");
   background-repeat: no-repeat;
   background-size: 23rem;
   background-blend-mode: luminosity;

@@ -7,7 +7,9 @@ import "./Partners.css";
 const PartnerComponent = ({ partner }) => {
   if (partner.position % 2 === 0) {
     return (
-      <Row className='bloc-partner p-5 bg-first'>
+      <Row
+        className='bloc-partner p-5 bg-first'
+        style={{ backgroundImage: `url("${partner.bgImage}")` }}>
         <Col className='offset-2 col-8'>
           <Row className='d-flex justify-content-center'>
             <Col>
@@ -42,7 +44,9 @@ const PartnerComponent = ({ partner }) => {
     );
   } else {
     return (
-      <Row className='bloc-partner p-5'>
+      <Row
+        className='bloc-partner2 p-5'
+        style={{ backgroundImage: `url("${partner.bgImage}")` }}>
         <Col className='offset-2 col-8'>
           <Row className='d-flex justify-content-center'>
             <Col className='bloc-logo-left'>
