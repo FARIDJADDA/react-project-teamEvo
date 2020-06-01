@@ -1,51 +1,41 @@
 [
   {
-    "header": { "title": "Our Values", "button": "#WEAREEVO" },
-    "content": [
-      {
-        "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod ",
-        "title": "TITRE"
-      },
-      {
-        "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod ",
-        "title": "TITRE"
-      },
-      {
-        "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod  Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod",
-        "title": "TITRE",
-        "variant": true
-      },
-      {
-        "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod ",
-        "title": "TITRE"
-      }
-    ]
+    "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod",
+    "title": "TITRE",
+    "filter": "our values"
   },
   {
-    "header": { "title": "Code of <br/><span>Conduct</span>" },
-    "content": [
-      {
-        "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod ",
-        "title": "TITRE"
-      },
-      {
-        "text": "teamevo.eu/codeofconduct",
-        "title": " "
-      }
-    ]
+    "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod",
+    "title": "TITRE",
+    "filter": "our values"
   },
   {
-    "header": { "title": "Our Visions" },
-    "content": [
-      {
-        "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod ",
-        "title": "TITRE"
-      },
-      {
-        "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod  Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod",
-        "title": "TITRE",
-        "variant": true
-      }
-    ]
+    "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod  Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod",
+    "title": "TITRE",
+    "filter": "our values",
+    "id": "overwatch"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod",
+    "title": "TITRE",
+    "filter": "our values"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod",
+    "title": "TITRE",
+    "filter": "code of conduct",
+    "link": "Our code of conduct",
+    "url": "https://www.teamevo.eu/files/An-esports-Code-of-Conduct.pdf"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod",
+    "title": "TITRE",
+    "filter": "our visions"
+  },
+  {
+    "text": "Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod  Lorem ipsum dolor sit amet consectetur  elit sed do eiusmod tempor incididuntLorem ipsum dolor sit amet consectetur  elit sed do eiusmodLorem ipsum dolor sit amet consectetur  elit sed do eiusmod",
+    "title": "TITRE",
+    "filter": "our visions",
+    "id": "raimbow"
   }
 ]

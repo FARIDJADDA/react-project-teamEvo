@@ -1,20 +1,4 @@
-@font-face {
-  font-family: "KoratakiW01-Book";
-  src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot");
-  src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.svg#KoratakiW01-Book")
-      format("svg");
-}
-
 .header-title h1 {
-  font-family: "KoratakiW01-Book";
   font-size: 36px;
   letter-spacing: 10px;
   font-style: italic;
@@ -22,19 +6,12 @@
 }
 
 .header-title h2 {
-  font-family: "Bebas Neue";
   font-size: 38px;
   letter-spacing: 10px;
+  text-align: center;
 }
 
-.header-bloc {
-  background: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2Favaa-06-25.png?alt=media&token=a50f9414-1697-4dac-b033-96f14e320b19");
-  background-size: 100% 320%;
-  background-position: center 35%;
-  border-bottom: solid 3px #c8d600;
-}
-
-.yellow-title {
+.header-title .yellow-title {
   color: #c8d600;
   letter-spacing: 2px;
 }
@@ -44,4 +21,9 @@
   position: relative;
   top: 15px;
   margin-right: 8px;
+}
+
+.header-title button:focus {
+  box-shadow: none;
+  border: none;
 }
