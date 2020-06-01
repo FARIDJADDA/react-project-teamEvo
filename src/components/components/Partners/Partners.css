@@ -1,0 +1,55 @@
+.logo-partner {
+  height: 80px;
+}
+
+.partner-website {
+  font-family: "Bebas neue";
+  letter-spacing: 0.2rem;
+  font-size: 1.1rem;
+  margin-top: 3rem;
+  color: white;
+}
+
+.partner-links a:hover {
+  text-decoration: none;
+  color: #c8d600;
+}
+
+.partner-links {
+  padding-top: 1.2rem;
+  margin: auto 0;
+  padding-left: 15px;
+}
+
+.partner-links a {
+  padding-left: 1rem;
+}
+
+.bloc-partner {
+  background-color: #131b23;
+}
+
+.bg-first {
+  background-color: #0b0f14;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/JerseyImage%2Fmaillot%20face.png?alt=media&token=58a03db0-1062-4242-87db-01b3793c7ee7");
+  background-repeat: no-repeat;
+  background-size: 23rem;
+  background-blend-mode: luminosity;
+}
+
+.social-partner {
+  color: white;
+}
+
+.social-partner:hover {
+  color: #c8d600;
+}
+
+.bloc-logo-right {
+  padding-left: 15rem;
+  min-width: 600px;
+  overflow: hidden;
+}
+.bloc-logo-left {
+  padding-left: 30px;
+}

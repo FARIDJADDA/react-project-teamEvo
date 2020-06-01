@@ -1,0 +1,36 @@
+.partnersTogether {
+  background-color: #0b0f14;
+  padding: 35px;
+  display: block;
+  text-align: center;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/valuesImage%2Favaa-01-25.png?alt=media&token=6d21715b-428b-443c-9a2a-6e2f900d0701");
+  background-size: 100% 400%;
+  background-position: center 20%;
+}
+.partnersTogether h2 {
+  font-family: "KoratakiW01-Book";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.partnersTogether h4 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+}
+
+.yellowWord {
+  color: #c8d600;
+}
+
+.buttonYellow {
+  font-weight: bold;
+  padding: 4px 14px 0 14px;
+  margin-top: 10px;
+  background-color: #c8d600;
+  border: none;
+  font-family: "Bebas Neue";
+  font-size: 1.2rem;
+}

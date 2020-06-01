@@ -2,11 +2,17 @@
   {
     "name": "Konix",
     "image": "https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/imageEvo%2FKONIX_logo_white-full.png?alt=media&token=02948918-31c1-40de-89b9-c4b1419b908a",
-    "website": "https://www.konix-interactive.com/"
+    "website": "https://www.konix-interactive.com/",
+    "position": "1",
+    "twitter": "https://twitter.com/konixinteract?lang=fr",
+    "facebook": "https://www.facebook.com/KonixInteract/"
   },
   {
     "name": "LMN8",
     "image": "https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/imageEvo%2FLMN8_LOGO_white_200-1.png?alt=media&token=be0715ce-66a6-47e8-b030-2518899c70de",
-    "website": "https://eliminate.fr/"
+    "website": "https://eliminate.fr/",
+    "position": "2",
+    "twitter": "https://twitter.com/eliminate_fr?lang=fr",
+    "facebook": "https://www.linkedin.com/company/eliminate-sas/about/"
   }
 ]
