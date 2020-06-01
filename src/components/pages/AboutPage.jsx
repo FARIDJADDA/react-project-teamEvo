@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import AboutList from "../../containers/about/AboutList";
-import HeaderBloc from "./../components/headerBloc/HeaderBloc";
+import HeaderBloc from "./../components/HeaderBloc/HeaderBloc";
 
 const AboutPage = () => {
   return (
@@ -15,7 +15,7 @@ const AboutPage = () => {
             borderBottom: "solid 3px #c8d600",
           }}
           firstTitle={
-            <h1 style={{ marginTop: 15, fontFamily: "KoratakiW01-Book" }}>
+            <h1 style={{ marginTop: 10, fontFamily: "KoratakiW01-Book" }}>
               <span className='hashtag'>#</span>WeAre
               <span className='yellow-title' style={{ fontSize: 36 }}>
                 EVO

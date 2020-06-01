@@ -56,8 +56,9 @@ function StaffList() {
                 })}
             </Row>
             <Row className='d-flex justify-content-center last-title'>
-              <h2 className='little-title'>
-                #WeAre<span className='yellow-title'>Evo</span>
+              <h2 className='little-title pb-2'>
+                <span className='hashtag2'>#</span>WeAre
+                <span className='yellow-title'>Evo</span>
               </h2>
             </Row>
           </Col>

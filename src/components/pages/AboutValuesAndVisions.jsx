@@ -1,9 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { useSelector } from "react-redux";
-import "../components/generic/style.scss";
 import ValuesItem from "../components/ValuesAndVisions/ValuesItem/ValuesItem";
-import HeaderBloc from "../components/headerBloc/HeaderBloc";
+import HeaderBloc from "../components/HeaderBloc/HeaderBloc";
 
 const AboutValuesAndVisions = () => {
   const valuesAndVisions = useSelector((state) => state.vision);
