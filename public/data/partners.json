@@ -2,11 +2,19 @@
   {
     "name": "Konix",
     "image": "https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/imageEvo%2FKONIX_logo_white-full.png?alt=media&token=02948918-31c1-40de-89b9-c4b1419b908a",
-    "website": "https://www.konix-interactive.com/"
+    "website": "https://www.konix-interactive.com/",
+    "position": "1",
+    "twitter": "https://twitter.com/konixinteract?lang=fr",
+    "facebook": "https://www.facebook.com/KonixInteract/",
+    "bgImage": "https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/ImageEvo%2Fce2b274fa68d234865a6abf69644f472.png?alt=media&token=619423ec-e2a1-4787-8fbb-ed354e3b1027"
   },
   {
     "name": "LMN8",
     "image": "https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/imageEvo%2FLMN8_LOGO_white_200-1.png?alt=media&token=be0715ce-66a6-47e8-b030-2518899c70de",
-    "website": "https://eliminate.fr/"
+    "website": "https://eliminate.fr/",
+    "position": "2",
+    "twitter": "https://twitter.com/eliminate_fr?lang=fr",
+    "facebook": "https://www.linkedin.com/company/eliminate-sas/about/",
+    "bgImage": "https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/JerseyImage%2Fmaillot%20face.png?alt=media&token=58a03db0-1062-4242-87db-01b3793c7ee7"
   }
 ]
