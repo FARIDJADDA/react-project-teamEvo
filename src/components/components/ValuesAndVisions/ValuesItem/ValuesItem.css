@@ -1,0 +1,45 @@
+.values-item p {
+  margin: 0;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.values-item h2 {
+  font-size: 26px;
+  color: #c8d600;
+}
+
+#overwatch {
+  background-color: #d5d6d6 !important;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/background-game%2Ffond-overwatch.png?alt=media&token=b2c41ae3-0269-44ac-81ce-fdecd776107b");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 60%;
+  color: black;
+}
+
+#overwatch h2 {
+  color: black;
+}
+
+#raimbow {
+  background-color: #d5d6d6 !important;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/background-game%2Ffond-r6-2.png?alt=media&token=ce4137c1-8874-494c-a9b1-c4eb13bb3c2b");
+  background-repeat: no-repeat;
+  background-size: 100% 230%;
+  background-position: 50% 15%;
+  color: black;
+}
+
+#raimbow h2 {
+  color: black;
+}
+
+.values-item a {
+  color: #c8d600;
+}
+
+.values-item a:link,
+.values-item a:visited {
+  color: #c8d600;
+}
