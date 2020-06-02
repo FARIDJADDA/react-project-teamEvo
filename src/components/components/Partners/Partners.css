@@ -16,7 +16,7 @@
 }
 
 .partner-links {
-  padding-top: 1.2rem;
+  padding-top: 2rem;
   margin: auto 0;
   padding-left: 15px;
 }
@@ -56,9 +56,23 @@
 
 .bloc-logo-right {
   padding-left: 15rem;
-  min-width: 600px;
+  min-width: 550px;
   overflow: hidden;
 }
 .bloc-logo-left {
+  min-width: 300px;
   padding-left: 30px;
+  overflow: hidden;
+}
+
+.bloc-partner button,
+.bloc-partner2 button,
+.bloc-partner button:active,
+.bloc-partner2 button:active,
+.bloc-partner button:focus,
+.bloc-partner2 button:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+  background-color: transparent;
 }

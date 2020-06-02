@@ -55,21 +55,21 @@ function PlayersList() {
         <Row>
           <Col className='offset-2 col-8'>
             <Row className='policeTitle pt-5'>
-              <Col>
+              <Col className='col-12 col-sm-6'>
                 <Row>
                   <div className='yellowBox'></div>
                   <h2>ROOSTER GAME</h2>
                 </Row>
               </Col>
-              <Col>
-                <div className='rightPosition'>
+              <Col className='col-12 col-sm-6'>
+                <Row className='rightPosition'>
                   <a
                     href='./achievements'
                     target='_blank'
                     rel='noopener noreferrer'>
                     <h2 className='titleAchievements'>ACHIEVEMENTS</h2>
                   </a>
-                </div>
+                </Row>
               </Col>
             </Row>
           </Col>

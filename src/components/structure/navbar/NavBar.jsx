@@ -45,26 +45,41 @@ const FullNavBar = () => {
             })}
           </Nav>
           <div style={{ display: "flex" }}>
-            <Nav.Link href='https://twitter.com/TeamEvoAB'>
+            <Nav.Link
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://twitter.com/TeamEvoAB'>
               <FontAwesomeIcon className='white' icon={faTwitter} />
             </Nav.Link>
-            <Nav.Link href='https://discord.com/' alt='test'>
+            <Nav.Link
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://discord.com/'
+              alt='test'>
               <FontAwesomeIcon className='white' icon={faDiscord} />
             </Nav.Link>
             <Nav.Link
+              target='_blank'
+              rel='noopener noreferrer'
               href='https://fr.linkedin.com/company/team-evo-ab'
               alt='test'>
               <FontAwesomeIcon className='white' icon={faLinkedin} />
             </Nav.Link>
             <Nav.Link
+              target='_blank'
+              rel='noopener noreferrer'
               href='https://www.youtube.com/channel/UCNk4BPBPEE5fwJPqZPq_Drg'
               alt='test'>
               <FontAwesomeIcon className='white' icon={faYoutube} />
             </Nav.Link>
-            <Nav.Link href='https://www.twitch.tv/team/evo' alt='test'>
+            <Nav.Link
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://www.twitch.tv/team/evo'
+              alt='test'>
               <FontAwesomeIcon className='white' icon={faTwitch} />
             </Nav.Link>
-            <Nav.Link href='#toto' alt='test'>
+            <Nav.Link href='#' alt='test'>
               <strong className='white'>FR</strong>
             </Nav.Link>
           </div>

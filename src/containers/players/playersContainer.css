@@ -52,6 +52,7 @@
 .policeTitle {
   font-family: "Bebas Neue", cursive;
   margin: 0 30px 0 10px;
+  overflow: hidden;
 }
 
 .rightPosition a:hover {

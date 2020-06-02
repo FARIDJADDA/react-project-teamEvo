@@ -15,7 +15,9 @@ const FooterList = ({ footer, title }) => {
           .map((elem, index) => {
             return (
               <li key={index}>
-                <a href={elem.url}>{elem.text}</a>
+                <a target='_blank' rel='noopener noreferrer' href={elem.url}>
+                  {elem.text}
+                </a>
               </li>
             );
           })}

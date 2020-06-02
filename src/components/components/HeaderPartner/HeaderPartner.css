@@ -34,3 +34,11 @@
   font-family: "Bebas Neue";
   font-size: 1.2rem;
 }
+
+.partnersTogether button,
+.partnersTogether button:active,
+.partnersTogether button:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+}
