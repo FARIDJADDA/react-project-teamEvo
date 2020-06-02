@@ -27,6 +27,7 @@
 
 .bloc-partner {
   background-color: #131b23;
+  border-bottom: solid 3px #c8d600;
 }
 
 .bloc-partner2 {
@@ -34,7 +35,8 @@
   background-size: 19rem;
   background-blend-mode: luminosity;
   background-color: #131b23;
-  background-position: right;
+  background-position: top right;
+  border-bottom: solid 3px #c8d600;
 }
 
 .bg-first {

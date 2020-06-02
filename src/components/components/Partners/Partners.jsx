@@ -1,10 +1,14 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Collapse } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import "./Partners.css";
+import PartnerDetail from "../detailPartner/PartnerDetail";
 
 const PartnerComponent = ({ partner }) => {
+  
+  const [open, setOpen] = React.useState(false);
+
   if (partner.position % 2 === 0) {
     return (
       <Row
@@ -32,13 +36,23 @@ const PartnerComponent = ({ partner }) => {
               </div>
             </Col>
             <Col className='bloc-logo-right'>
+              <button className="btn btn-link" onClick={() => setOpen(!open)}
+              aria-controls="example-collapse-text"
+              aria-expanded={open}
+              >
               <img
                 src={partner.image}
                 alt='logo-partner'
                 className='logo-partner'
               />
+              </button>
             </Col>
           </Row>
+          <Collapse in={open}>
+          <Row id="example-collapse-text"className="pt-5">
+            <PartnerDetail partner={partner}/>
+          </Row>
+          </Collapse>
         </Col>
       </Row>
     );
@@ -50,11 +64,17 @@ const PartnerComponent = ({ partner }) => {
         <Col className='offset-2 col-8'>
           <Row className='d-flex justify-content-center'>
             <Col className='bloc-logo-left'>
+            <button className="btn btn-link" onClick={() => setOpen(!open)}
+              aria-controls="example-collapse-text"
+              aria-expanded={open}
+              >
               <img
                 src={partner.image}
                 alt='logo-partner'
                 className='logo-partner'
               />
+              </button>
+
             </Col>
             <Col>
               <div className='f-flex justify-content-center partner-links'>
@@ -76,6 +96,11 @@ const PartnerComponent = ({ partner }) => {
               </div>
             </Col>
           </Row>
+          <Collapse in={open}>
+          <Row id="example-collapse-text"className="pt-5">
+            <PartnerDetail partner={partner}/>
+          </Row>
+          </Collapse>
         </Col>
       </Row>
     );
