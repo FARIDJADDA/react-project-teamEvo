@@ -4,6 +4,7 @@ import TwitchComponent from "../../components/components/twitch/TwitchComponent"
 import "./webTvTwitch.css";
 import { useSelector } from "react-redux";
 import StreamerComponent from "../../components/components/twitch/StreamerComponent";
+import WaitData from "../../components/components/Spinner/WaitData"
 
 const WebTvTwitch = () => {
   const players = useSelector((state) => state.players);
@@ -13,11 +14,17 @@ const WebTvTwitch = () => {
   const [channel, setChannel] = React.useState("teamevotv");
 
   const handleClick = (playerId, channelName) => {
-    window.scrollTo({top:200});
+    window.scrollTo({top:200, behavior: 'smooth'});
     setState({ id: playerId });
     channelName = channelName ? channelName : "teamevotv";
     setChannel(channelName);
   };
+
+  if (!players.length) {
+    return (
+      <WaitData />
+    );
+  }
 
   return (
     <>

@@ -2,7 +2,8 @@ import React from "react";
 import Players from "../../components/components/players/players";
 import { useSelector } from "react-redux";
 import "./playersContainer.css";
-import { Container, Row, Col, Spinner } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import WaitData from "../../components/components/Spinner/WaitData";
 
 function PlayersList() {
   const players = useSelector((state) => state.players);
@@ -17,9 +18,7 @@ function PlayersList() {
 
   if (!players.length || !games.length) {
     return (
-      <Container fluid>
-        <Spinner animation='border' variant='warning' />
-      </Container>
+      <WaitData />
     );
   }
   return (

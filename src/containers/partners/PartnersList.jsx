@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import PartnerComponent from "../../components/components/Partners/Partners";
 import { Container } from "react-bootstrap";
+import WaitData from "../../components/components/Spinner/WaitData";
 
 /**
  * @param  {} { partners, onDelete } represent an object composed from the partners object and also the onDelete dispatcher
@@ -10,7 +11,10 @@ import { Container } from "react-bootstrap";
 function PartnersList() {
   const partners = useSelector((state) => state.partners);
   if (!partners.length) {
-    return <div>No Partners</div>;
+    return (
+      <WaitData />
+    );
+    
   }
   return (
     <Container fluid>

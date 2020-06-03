@@ -3,10 +3,18 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Cdpr.css";
 import { useSelector } from "react-redux";
 import CdprComponent from "../../components/components/Cdpr/CdprComponent";
+import WaitData from "../../components/components/Spinner/WaitData"
 
 const Cdpr = () => {
   const cdpr = useSelector((state) => state.cdpr);
+
+  if (!cdpr.length) {
+    return (
+      <WaitData />
+    );
+  }
   return (
+    
     <>
       <Container fluid>
         <Row>

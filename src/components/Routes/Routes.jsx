@@ -18,6 +18,7 @@ import AboutCdpr from "./../pages/AboutCdpr";
 import AboutLegalNotice from "./../pages/AboutLegalNotice";
 import AboutPage from "../pages/AboutPage";
 import FullNavBar from "../structure/navbar/NavBar";
+import NotFound from "../pages/NotFound";
 /**
  * @param  {} { partners} represent an object composed from the partners object and also the onDelete dispatcher
  *
@@ -46,6 +47,7 @@ function RouteList() {
           />
           <Route path={"/about/cdpr"} component={AboutCdpr} />
           <Route path={"/about/legalNotice"} component={AboutLegalNotice} />
+          <Route component={NotFound} />
         </Switch>
       </Router>
     </>

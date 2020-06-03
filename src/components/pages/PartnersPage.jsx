@@ -9,5 +9,4 @@ const PartnersPage = () => {
     </>
   );
 };
-
 export default PartnersPage;
