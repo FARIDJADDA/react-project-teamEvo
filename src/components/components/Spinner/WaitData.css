@@ -1,0 +1,16 @@
+.wait-data{
+  height: 70vh;
+  max-width: 100%;
+  text-align: center;
+}
+.wait-data h1{
+  font-family: 'Bebas Neue';
+  letter-spacing: 0.3rem;
+    margin: auto;
+    font-size: 3rem;
+}
+.wait-data div{
+  font-size: 1rem;
+  margin: 0 0 1.1rem 1rem;
+  color: #c8d600;
+}

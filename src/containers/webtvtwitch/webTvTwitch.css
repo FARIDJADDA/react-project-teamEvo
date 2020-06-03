@@ -19,7 +19,7 @@
 
 .bg-twitch {
   padding: 50px 0 70px 0;
-  background: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/WebTvImage%2FTWITCHPNG.png?alt=media&token=88a59020-0494-46d8-bade-b2f763e5daa9");
+  background: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/WebTvImage%2Ftwich123.png?alt=media&token=0bcb1354-f64a-4c58-ad3d-e585c0c0fc81");
 }
 
 .tv-buttons img {
@@ -56,4 +56,5 @@
 
 .activePlayer {
   color: #c8d600;
+  scroll-behavior: 'smooth'
 }

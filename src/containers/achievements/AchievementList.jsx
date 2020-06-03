@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { Row } from "react-bootstrap";
 import "./AchievementList.css";
 import AchievementComponent from "../../components/components/Achievement/AchievementComponent";
+import WaitData from "../../components/components/Spinner/WaitData"
 
 function AchievementList() {
   const achievements = useSelector((state) => state.achievements);
@@ -12,6 +13,12 @@ function AchievementList() {
   const achievements2021 = achievements.filter(
     (achievements) => achievements.year === "2021",
   );
+
+  if (!achievements.length) {
+    return (
+      <WaitData />
+    );
+  }
   return (
     <>
       <Row className='d-flex justify-content-center p-5'>

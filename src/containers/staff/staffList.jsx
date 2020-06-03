@@ -5,10 +5,18 @@ import ChiefComponent from "./../../components/components/Staff/ChiefComponent";
 import "./staffList.css";
 import StaffTextComponent from "./../../components/components/StaffTextComponent/StaffTextComponent";
 import ManagerComponent from "./../../components/components/ManagerComponent/ManagerComponent";
+import WaitData from "../../components/components/Spinner/WaitData"
 
 function StaffList() {
   const staff = useSelector((state) => state.staff);
   const staffText = useSelector((state) => state.staffText);
+
+  if (!staff.length) {
+    return (
+    <WaitData />
+    );
+  }
+
   return (
     <>
       <Container fluid className='staff-content'>
