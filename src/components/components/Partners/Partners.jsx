@@ -7,9 +7,8 @@ import PartnerDetail from "../detailPartner/PartnerDetail";
 
 const PartnerComponent = ({ partner }) => {
   const [open, setOpen] = React.useState(false);
-
-  if (partner.position % 2 === 0) {
-    return (
+    
+    return partner.position % 2 === 0 ?
       <Row
         className='bloc-partner p-5 bg-first'
         style={{ backgroundImage: `url("${partner.bgImage}")` }}>
@@ -65,9 +64,7 @@ const PartnerComponent = ({ partner }) => {
           </Collapse>
         </Col>
       </Row>
-    );
-  } else {
-    return (
+      :
       <Row
         className='bloc-partner2 p-5'
         style={{ backgroundImage: `url("${partner.bgImage}")` }}>
@@ -123,8 +120,6 @@ const PartnerComponent = ({ partner }) => {
           </Collapse>
         </Col>
       </Row>
-    );
-  }
-};
+    };
 
 export default PartnerComponent;
