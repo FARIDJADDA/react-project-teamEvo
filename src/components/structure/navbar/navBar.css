@@ -78,3 +78,9 @@
   box-shadow: none;
   text-decoration: none;
 }
+svg {
+  transition: transform 0.5s;
+}
+svg:hover {
+  transform: scale(1.5);
+}

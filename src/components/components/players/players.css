@@ -9,7 +9,7 @@
 }
 
 .player-container .player-infos {
-  background-color:	#131b23;
+  background-color: #131b23;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -26,4 +26,10 @@
 .player-social a {
   margin: 0 1px;
   font-size: 12px;
+}
+.text-grey {
+  color: darkgrey;
+}
+.text-yellow {
+  color: #c8d600;
 }
