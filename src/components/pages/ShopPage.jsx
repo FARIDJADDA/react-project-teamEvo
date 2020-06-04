@@ -1,15 +1,12 @@
 import React from "react";
-import { Row, Container } from "react-bootstrap";
 
 const ShopPage = () => {
   return (
-    <>
-      <Container>
-        <Row>
-          <p>Shop</p>
-        </Row>
-      </Container>
-    </>
+    <div className='notFound'>
+      <div className='notFoundContent'>
+        <h1>To be announced...</h1>
+      </div>
+    </div>
   );
 };
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useSelector} from "react-redux"
+import { useSelector } from "react-redux";
 import {
   faArrowCircleUp,
   faArrowCircleDown,
@@ -11,29 +11,16 @@ import "./Home.css";
 import HomeContent from "./HomeContent";
 
 const Home = () => {
-   const home = useSelector((state) => state.home);
-   const [page, setPage] = React.useState(1);
-   const homeData = home.filter((version) => version.page === page);
-
-  const handleClickDown = () => {
-    if (page !== 2) {
-      setPage(2)
-    }
-  }
-  const handleClickUp = () => {
-    if (page !== 1) {
-      setPage(1)
-    }
-  }
+  const home = useSelector((state) => state.home);
 
   return (
     <>
       <Container fluid dark>
-        <Row>
+        <Row className='home-container'>
           <Col md='6' lg='6'>
-          {homeData.map((data) => {
-            return <HomeContent homeData={data}/>
-          })}
+            {home.map((data) => {
+              return <HomeContent id={data.page} homeData={data} />;
+            })}
           </Col>
           <Col fluid md='9' lg='9'>
             <div>
@@ -49,14 +36,14 @@ const Home = () => {
         </Row>
       </Container>
       <div className='sideBar list-group' id='sidebar'>
-        <div onClick={handleClickUp}>
+        <a href='#1'>
           <FontAwesomeIcon icon={faArrowCircleUp} color='white' />
-        </div>
-          <FontAwesomeIcon icon={faCircle} color='white' />
-          <FontAwesomeIcon icon={faCircle} color='white' />
-        <div onClick={handleClickDown}>
+        </a>
+        <FontAwesomeIcon icon={faCircle} color='white' />
+        <FontAwesomeIcon icon={faCircle} color='white' />
+        <a href='#2'>
           <FontAwesomeIcon icon={faArrowCircleDown} color='white' />
-        </div>
+        </a>
       </div>
     </>
   );

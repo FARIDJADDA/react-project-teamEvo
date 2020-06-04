@@ -1,4 +1,5 @@
 .navbarcustom {
+  z-index: 2;
   background-color: #131b23;
   border-bottom: solid 6px #c8d600;
   font-family: "Bebas Neue", cursive;
