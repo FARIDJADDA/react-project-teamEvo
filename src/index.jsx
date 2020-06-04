@@ -20,6 +20,7 @@ import { fetchAllVision } from "./actions/vision/vision";
 import { fetchAllLegal } from "./actions/legal/legal";
 import { fetchAllStaffText } from "./actions/staffText.json/index";
 import { fetchAllAchievements } from "./actions/achievements/achievements";
+import { fetchAllHome} from "./actions/home/home"
 
 export const store = createStore(
   rootReducer,
@@ -38,6 +39,7 @@ store.dispatch(fetchAllVision());
 store.dispatch(fetchAllLegal());
 store.dispatch(fetchAllStaffText());
 store.dispatch(fetchAllAchievements());
+store.dispatch(fetchAllHome());
 
 ReactDOM.render(
   <React.StrictMode>

@@ -11,6 +11,7 @@ import vision from "./visionReducer";
 import legal from "./legalReducer";
 import staffText from "./staffTextReducers";
 import achievements from "./achievementReducers";
+import home from "./homeReducers";
 
 export default combineReducers({
   partners,
@@ -25,4 +26,5 @@ export default combineReducers({
   legal,
   staffText,
   achievements,
+  home,
 });

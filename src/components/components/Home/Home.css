@@ -22,7 +22,7 @@
   background: url("https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/HomeImage%2F2018GA-aAa-L10.jpg?alt=media&token=69b85bc3-2346-49fd-9c24-a5cba47ca7b5");
   -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
   clip-path: polygon(0 0, 50% 100%, 100% 0);
-  width: 60vh;
+  width: 80vh;
   height: 60vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -35,23 +35,23 @@
 
 .test1 {
   background: url("https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/HomeImage%2FAAA-EOS2019-12.jpg?alt=media&token=1a75e6a8-086b-440c-8e9e-7b75522f455f");
-  -webkit-clip-path: polygon(50% 0, 0% 100%, 100% 100%);
-  clip-path: polygon(50% 0, 0% 100%, 100% 100%);
-  width: 60vh;
+  -webkit-clip-path: polygon(52% 0, 0% 100%, 100% 100%);
+  clip-path: polygon(52% 0, 0% 100%, 100% 100%);
+  width: 78vh;
   height: 60vh;
   background-size: 200%;
   background-repeat: no-repeat;
   background-position: center;
-  top: -2vh;
+  top: -3vh;
   position: fixed;
   z-index: -100;
-  right: 30vh;
+  right: 20vh;
 }
 .test2 {
   background: url("https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/HomeImage%2FAAA-GA2019-41.jpg?alt=media&token=41b372f0-e91d-4ac9-8faf-d2d07e986528");
   -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
   clip-path: polygon(0 0, 50% 100%, 100% 0);
-  width: 60vh;
+  width: 80vh;
   height: 60vh;
   top: 59vh;
   background-size: 200%;
@@ -59,7 +59,7 @@
   background-position: center;
   position: fixed;
   z-index: -100;
-  right: 30vh;
+  right: 20vh;
 }
 .section1 {
   margin-bottom: 70vh;
@@ -76,4 +76,50 @@
 .title {
   border-bottom: solid 6px #c8d600;
   margin-right: 6vh;
+}
+
+.weAre {
+  color: #ebebeb;
+  letter-spacing: .6rem;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.title-evo .yellow-title {
+  color: #c8d600;
+  padding-left: 80px;
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: .2rem;
+}
+
+.second-title {
+  border-bottom: 8px solid #c8d600;
+  width: 600px;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.title-evo {
+  font-family: "KoratakiW01-Book";
+}
+
+.btn-evo {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  background-color: #c8d600;
+  border-radius: 0;
+   color: black !important;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  padding: 0 40px;
+}
+
+.btn-evo:hover, .btn-evo:active, .btn-evo:focus {
+  background-color: #c8d600;
+  color: black;
+}
+
+.paragraph {
+  margin-bottom: 70px;
 }
