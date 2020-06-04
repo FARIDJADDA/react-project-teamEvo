@@ -2,25 +2,25 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import rootReducer from "./reducers";
+import rootReducer from "./store/reducers";
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
 import * as serviceWorker from "./serviceWorker";
-import { fetchAllPartners } from "./actions/partners/index";
+import { fetchAllPartners } from "./store/actions/partners/index";
 import { composeWithDevTools } from "redux-devtools-extension";
-import { fetchAllPlayers } from "./actions/players";
-import { fetchAllNav } from "./actions/navs/navs";
-import { fetchAllFooter } from "./actions/footer/footer";
-import { fetchAllGames } from "./actions/games/game";
-import { fetchAllCdpr } from "./actions/Cdpr/Cdpr";
-import { fetchAllStaff } from "./actions/staff/index";
-import { fetchAllAbout } from "./actions/about/about";
-import { fetchAllVision } from "./actions/vision/vision";
-import { fetchAllLegal } from "./actions/legal/legal";
-import { fetchAllStaffText } from "./actions/staffText.json/index";
-import { fetchAllAchievements } from "./actions/achievements/achievements";
-import { fetchAllHome} from "./actions/home/home"
+import { fetchAllPlayers } from "./store/actions/players";
+import { fetchAllNav } from "./store/actions/navs/navs";
+import { fetchAllFooter } from "./store/actions/footer/footer";
+import { fetchAllGames } from "./store/actions/games/game";
+import { fetchAllCdpr } from "./store/actions/Cdpr/Cdpr";
+import { fetchAllStaff } from "./store/actions/staff/index";
+import { fetchAllAbout } from "./store/actions/about/about";
+import { fetchAllVision } from "./store/actions/vision/vision";
+import { fetchAllLegal } from "./store/actions/legal/legal";
+import { fetchAllStaffText } from "./store/actions/staffText.json/index";
+import { fetchAllAchievements } from "./store/actions/achievements/achievements";
+import { fetchAllHome } from "./store/actions/home/home";
 
 export const store = createStore(
   rootReducer,

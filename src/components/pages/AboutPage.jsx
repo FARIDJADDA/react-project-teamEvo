@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import AboutList from "../../containers/about/AboutList";
-import HeaderBloc from "./../components/HeaderBloc/HeaderBloc";
+import AboutList from "../containers/about/AboutList";
+import HeaderBloc from "../components/HeaderBloc/HeaderBloc";
 
 const AboutPage = () => {
   return (

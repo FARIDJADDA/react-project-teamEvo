@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import AchievementList from "../../containers/achievements/AchievementList";
+import AchievementList from "../containers/achievements/AchievementList";
 
 const AchievementsPage = () => {
   return (

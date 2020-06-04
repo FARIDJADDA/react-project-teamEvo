@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Container } from "react-bootstrap";
-import WebTvTwitch from "../../containers/webtvtwitch/WebTvTwitch";
+import WebTvTwitch from "./../containers/webtvtwitch/WebTvTwitch";
 
 const WebTvPage = () => {
   return (

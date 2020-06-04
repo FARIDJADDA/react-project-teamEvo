@@ -1,17 +1,15 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { useSelector } from "react-redux";
-import ValuesItem from "../components/ValuesAndVisions/ValuesItem/ValuesItem";
-import HeaderBloc from "../components/HeaderBloc/HeaderBloc";
-import WaitData from "../../components/components/Spinner/WaitData"
+import ValuesItem from "./../components/ValuesAndVisions/ValuesItem/ValuesItem";
+import HeaderBloc from "./../components/HeaderBloc/HeaderBloc";
+import WaitData from "./../components/Spinner/WaitData";
 
 const AboutValuesAndVisions = () => {
   const valuesAndVisions = useSelector((state) => state.vision);
 
   if (!valuesAndVisions.length) {
-    return (
-      <WaitData />
-    );
+    return <WaitData />;
   }
 
   return (
