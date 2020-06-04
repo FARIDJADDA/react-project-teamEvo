@@ -1,5 +1,6 @@
 .about-section div:first-child {
   background-color: #0c1217;
+  padding-top: 5px;
 }
 .about-section div:nth-child(2) {
   background-color: #131b23;
@@ -10,13 +11,12 @@
 }
 .about-section div:nth-child(3) {
   background: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2FAAA-EOS2019-19.jpg?alt=media&token=5047983a-c483-4172-beb5-dca1a1c8e5fe")
-  right top;
+    right top;
   background-size: auto 110%;
   background-repeat: no-repeat;
 }
 
 .about-section div:nth-child(3) div {
   max-width: 70%;
-  background-color: transparent ;
+  background-color: transparent;
 }
-
