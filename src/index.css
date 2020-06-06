@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #02060c !important;
   color: white !important;
+  padding-top: 61.6px;
 }
 
 a:hover {
@@ -14,8 +15,7 @@ a:hover {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Bebas Neue",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Bebas Neue", monospace;
 }
 .notFound {
   height: 70vh;
@@ -23,18 +23,17 @@ code {
   text-align: center;
 }
 .notFound h1 {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   letter-spacing: 0.1rem;
-    margin: 5rem auto 4rem auto;
-    font-size: 3rem;
-  }
-  .notFound a {
-    font-family:'Bebas Neue';
-    letter-spacing: 0.1rem;
-    padding: 1rem 2rem;
-    transition: .2s;
-    color: #c8d600!important;
-    text-decoration: none;
-    font-size: 1.3rem;
-  }
-  
+  margin: 5rem auto 4rem auto;
+  font-size: 3rem;
+}
+.notFound a {
+  font-family: "Bebas Neue";
+  letter-spacing: 0.1rem;
+  padding: 1rem 2rem;
+  transition: 0.2s;
+  color: #c8d600 !important;
+  text-decoration: none;
+  font-size: 1.3rem;
+}

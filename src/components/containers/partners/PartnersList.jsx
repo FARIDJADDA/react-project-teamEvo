@@ -1,7 +1,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import PartnerComponent from "./../../components/Partners/Partners";
 import { Container } from "react-bootstrap";
+
+import PartnerComponent from "./../../components/Partners/Partners";
 import WaitData from "./../../components/Spinner/WaitData";
 
 /**
@@ -13,6 +14,7 @@ function PartnersList() {
   if (!partners.length) {
     return <WaitData />;
   }
+  console.log(partners);
   return (
     <Container fluid>
       {partners.map((partner, index) => {
