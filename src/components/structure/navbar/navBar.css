@@ -22,10 +22,12 @@
 
 .white {
   color: white;
+  font-weight: 500;
 }
 .white:hover {
   text-decoration: none;
 }
+
 .active {
   color: #c8d600;
 }
@@ -41,10 +43,15 @@
 
 .navlink {
   margin: 5px 5px 0 5px;
+  padding-right: 19px;
 }
 
 .navlink {
   margin-top: 5px;
+}
+#basic-navbar-nav {
+  display: flex;
+  justify-content: center;
 }
 
 .drop-btn {
