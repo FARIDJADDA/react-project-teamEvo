@@ -7,7 +7,8 @@ h6 {
 
 .para {
   font-size: 17px;
-  font-weight: 1;
+  font-weight: 420;
   text-align: justify;
   text-transform: lowercase;
+  padding-top: 6px;
 }
