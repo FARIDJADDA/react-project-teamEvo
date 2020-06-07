@@ -1,12 +1,7 @@
 import React from "react";
-import "./StaffTextComponent.css";
 
 const StaffTextComponent = ({ data }) => {
-  return (
-    <>
-      <p>{data.text}</p>
-    </>
-  );
+  return <p style={{ textAlign: "justify" }}>{data.text}</p>;
 };
 
 export default StaffTextComponent;

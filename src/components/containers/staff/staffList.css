@@ -1,18 +1,21 @@
-.yellowBox1 {
+.bg-text {
+  background-color: #131b23;
+}
+.big-box {
   background-color: #c8d600;
   width: 10px;
-  height: 30px;
+  height: 36px;
   padding-top: 0;
   margin-right: 4px;
-  margin-top: 6px;
+  margin-top: 9px;
 }
-.yellowBox2 {
+.little-box {
   background-color: #c8d600;
   width: 10px;
   height: 20px;
   padding-top: 15px;
   margin-right: 4px;
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .text-content {
@@ -20,25 +23,18 @@
   text-align: justify;
 }
 
-.element1 {
-  padding-top: 30px;
-}
+.element1,
 .element3 {
   padding-top: 30px;
-}
-
-.yellowBox3 {
-  background-color: #c8d600;
-  width: 10px;
-  height: 23px;
-  padding-top: 15px;
-  margin-top: 6px;
-  margin-right: 3px;
 }
 
 .element1,
 .element2 {
   font-family: "Bebas Neue", cursive;
+}
+
+.element1 h1 {
+  font-size: 50px;
 }
 
 .little-title {
@@ -69,4 +65,9 @@
   font-size: 30px;
   position: relative;
   top: 5px;
+}
+
+.nickName {
+  color: #c8d600;
+  font-family: Bebas Neue;
 }

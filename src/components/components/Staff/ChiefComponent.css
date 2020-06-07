@@ -24,23 +24,6 @@
   border-radius: 0;
 }
 
-.nickName {
-  color: #c8d600;
-  font-size: 20px;
-  font-family: "Bebas Neue", cursive;
-}
-
-.staff-pseudo {
-  width: 290px;
-  text-align: center;
-}
-.staff-pseudo p {
-  font-size: 15px;
-  line-height: 1;
-  font-family: "Bebas Neue", cursive;
-  color: #c8d600;
-}
-
 .text-card {
   line-height: 0.7;
   padding-top: 5px;
