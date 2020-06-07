@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./Cdpr.css";
+import "./CdprList.css";
 import { useSelector } from "react-redux";
-import CdprComponent from "./../../components/Cdpr/CdprComponent";
-import WaitData from "./../../components/Spinner/WaitData";
+import CdprComponent from "../../components/Cdpr/CdprComponent";
+import WaitData from "../../components/Spinner/WaitData";
 
-const Cdpr = () => {
+const CdprList = () => {
   const cdpr = useSelector((state) => state.cdpr);
 
   if (!cdpr.length) {
@@ -20,10 +20,8 @@ const Cdpr = () => {
             <p className='yellowColor'>Privacy Policy</p>
           </Col>
         </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col className='pt-3'>
+        <Row className='justify-content-md-center'>
+          <Col md={12} lg={8} className='pt-3'>
             {cdpr.map((element) => {
               return <CdprComponent data={element} />;
             })}
@@ -34,4 +32,4 @@ const Cdpr = () => {
   );
 };
 
-export default Cdpr;
+export default CdprList;

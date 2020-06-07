@@ -3,12 +3,10 @@ import "./Cdpr.css";
 
 const CdprComponent = ({ data }) => {
   return (
-    <>
-      <>
-        <h6>{data.title}</h6>
-        <p className='para'>{data.paragraphe}</p>
-      </>
-    </>
+    <div className='cdpr-item'>
+      <h6>{data.title}</h6>
+      <p>{data.paragraphe}</p>
+    </div>
   );
 };
 
