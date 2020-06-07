@@ -4,10 +4,17 @@
 
 .partner-website {
   font-family: "Bebas neue";
-  letter-spacing: 0.2rem;
-  font-size: 1.1rem;
-  margin-top: 3rem;
+  letter-spacing: 0.5vw;
+  font-size: 15px;
   color: white;
+}
+
+.partner-links {
+  margin: 5rem auto;
+}
+
+.partner-links a {
+  margin: 0.5rem;
 }
 
 .partner-links a:hover {
@@ -15,19 +22,18 @@
   color: #c8d600;
 }
 
-.partner-links {
-  padding-top: 2rem;
-  margin: auto 0;
-  padding-left: 15px;
-}
-
-.partner-links a {
-  padding-left: 1rem;
+.row-img {
+  height: 100%;
+  min-height: 200px;
 }
 
 .bloc-partner {
-  background-color: #131b23;
   border-bottom: solid 3px #c8d600;
+}
+
+.bloc-partner button,
+.bloc-partner2 button {
+  margin: auto;
 }
 
 .bloc-partner2 {
@@ -52,17 +58,6 @@
 
 .social-partner:hover {
   color: #c8d600;
-}
-
-.bloc-logo-right {
-  padding-left: 15rem;
-  min-width: 550px;
-  overflow: hidden;
-}
-.bloc-logo-left {
-  min-width: 300px;
-  padding-left: 30px;
-  overflow: hidden;
 }
 
 .bloc-partner button,

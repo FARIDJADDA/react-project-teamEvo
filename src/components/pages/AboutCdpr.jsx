@@ -1,10 +1,10 @@
 import React from "react";
-import Cdpr from "../containers/Cdpr/Cdpr";
+import CdprList from "../containers/Cdpr/CdprList";
 
 const AboutCdpr = () => {
   return (
     <>
-      <Cdpr />
+      <CdprList />
     </>
   );
 };
