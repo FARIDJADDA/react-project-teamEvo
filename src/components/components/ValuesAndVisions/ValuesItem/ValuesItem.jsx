@@ -4,8 +4,8 @@ import "./ValuesItem.css";
 
 const ValuesItem = ({ data }) => {
   return (
-    <Row className='values-item p-4' id={data.id}>
-      <Col className='offset-2 col-8'>
+    <Row className='justify-content-md-center values-item p-4' id={data.id}>
+      <Col md={12} lg={8}>
         <h2>{data.title}</h2>
         <p>{data.text}</p>
         {data.link ? (

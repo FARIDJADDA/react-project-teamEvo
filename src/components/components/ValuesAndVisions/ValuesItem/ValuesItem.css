@@ -35,10 +35,7 @@
   color: black;
 }
 
-.values-item a {
-  color: #c8d600;
-}
-
+.values-item a,
 .values-item a:link,
 .values-item a:visited {
   color: #c8d600;
