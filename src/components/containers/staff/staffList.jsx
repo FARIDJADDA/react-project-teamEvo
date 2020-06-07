@@ -2,11 +2,9 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { Container, Row, Col } from "react-bootstrap";
 import "./staffList.css";
-
-import ChiefComponent from "./../../components/Staff/ChiefComponent";
-import StaffTextComponent from "./../../components/StaffTextComponent/StaffTextComponent";
-import ManagerComponent from "./../../components/ManagerComponent/ManagerComponent";
+import StaffTextComponent from "./../../components/Staff/StaffTextComponent";
 import WaitData from "./../../components/Spinner/WaitData";
+import StaffComponent from "./../../components/Staff/StaffComponent";
 
 function StaffList() {
   const staff = useSelector((state) => state.staff);
@@ -18,9 +16,9 @@ function StaffList() {
 
   return (
     <Container fluid>
-      <Row className='justify-content-md-center'>
+      <Row className='justify-content-md-center titles'>
         <Col md={12} lg={8}>
-          <div className='d-flex element1'>
+          <div className='d-flex staff-title'>
             <div className='big-box'></div>
             <h1>STAFF</h1>
           </div>
@@ -35,7 +33,13 @@ function StaffList() {
         {staff
           .filter((person) => person.role === "chief")
           .map((person, index) => {
-            return <ChiefComponent key={index} data={person} />;
+            return (
+              <Col sm={12} md={4} lg={4}>
+                <Row className='justify-content-center mt-3 mb-3'>
+                  <StaffComponent key={index} data={person} />
+                </Row>
+              </Col>
+            );
           })}
       </Row>
 
@@ -47,9 +51,9 @@ function StaffList() {
         </Col>
       </Row>
 
-      <Row className='justify-content-md-center'>
+      <Row className='justify-content-md-center titles pt-4'>
         <Col md={12} lg={8}>
-          <div className=' d-flex element3'>
+          <div className=' d-flex'>
             <div className='little-box'></div>
             <h3>MANAGER</h3>
           </div>
@@ -60,7 +64,13 @@ function StaffList() {
         {staff
           .filter((person) => person.role === "manager")
           .map((person, index) => {
-            return <ManagerComponent key={index} data={person} />;
+            return (
+              <Col sm={12} md={3} lg={3}>
+                <Row className='justify-content-center  mt-3 mb-3'>
+                  <StaffComponent key={index} data={person} />
+                </Row>
+              </Col>
+            );
           })}
       </Row>
 
@@ -68,7 +78,7 @@ function StaffList() {
         <Col xs={12} sm={12} md={12} lg={12}>
           <Row className='justify-content-center mb-5'>
             <h2 className='little-title pb-2'>
-              <span className='hashtag2'>#</span>WeAre
+              <span className='hashtag'>#</span>WeAre
               <span className='yellow-title'>Evo</span>
             </h2>
           </Row>
