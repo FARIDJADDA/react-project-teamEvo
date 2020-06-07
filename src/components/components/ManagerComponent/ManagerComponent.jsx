@@ -1,16 +1,11 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import { Card } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 import "./ManagerComponent.css";
 const ManagerComponent = ({ data }) => {
   return (
-    <>
-      <Col className='d-flex flex-column justify-content-center col-12 col-sm-4 p-5'>
-        <Row className=' d-flex justify-content-center staff-pseudo'>
-          <Col className='col-12'>
-            <p>{data.nickName}</p>
-          </Col>
-        </Row>
+    <Col sm={12} md={3} lg={3}>
+      <Row className='justify-content-center mt-3 mb-3'>
+        <p>{data.nickName}</p>
         <Card className='cardElement'>
           <Card.Img className='imageManager' variant='top' src={data.image} />
           <Card.Body className='affichage'>
@@ -22,8 +17,8 @@ const ManagerComponent = ({ data }) => {
             </Card.Text>
           </Card.Body>
         </Card>
-      </Col>
-    </>
+      </Row>
+    </Col>
   );
 };
 
