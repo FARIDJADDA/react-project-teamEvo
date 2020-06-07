@@ -21,17 +21,17 @@ function StaffList() {
       <Row className='justify-content-md-center'>
         <Col md={12} lg={8}>
           <div className='d-flex element1'>
-            <div className='yellowBox1'></div>
+            <div className='big-box'></div>
             <h1>STAFF</h1>
           </div>
           <div className='d-flex'>
-            <div className='yellowBox2'></div>
+            <div className='little-box'></div>
             <h3>TITRE</h3>
           </div>
         </Col>
       </Row>
 
-      <Row className='justify-content-md-center pt-5 pb-5'>
+      <Row className='justify-content-md-center pt-3 pb-5'>
         {staff
           .filter((person) => person.role === "chief")
           .map((person, index) => {
@@ -39,7 +39,7 @@ function StaffList() {
           })}
       </Row>
 
-      <Row className='justify-content-md-center'>
+      <Row className='justify-content-md-center bg-text p-5'>
         <Col md={12} lg={8}>
           {staffText.map((data, index) => {
             return <StaffTextComponent key={index} data={data} />;
@@ -50,7 +50,7 @@ function StaffList() {
       <Row className='justify-content-md-center'>
         <Col md={12} lg={8}>
           <div className=' d-flex element3'>
-            <div className='yellowBox3'></div>
+            <div className='little-box'></div>
             <h3>MANAGER</h3>
           </div>
         </Col>
@@ -66,7 +66,7 @@ function StaffList() {
 
       <Row>
         <Col xs={12} sm={12} md={12} lg={12}>
-          <Row className='justify-content-center'>
+          <Row className='justify-content-center mb-5'>
             <h2 className='little-title pb-2'>
               <span className='hashtag2'>#</span>WeAre
               <span className='yellow-title'>Evo</span>

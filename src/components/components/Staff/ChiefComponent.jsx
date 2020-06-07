@@ -6,7 +6,7 @@ const ChiefComponent = ({ data }) => {
     <Col sm={12} md={4} lg={4}>
       <Row className='justify-content-center  mt-3 mb-3'>
         <Col>
-          <Row className='justify-content-center'>
+          <Row className='justify-content-center nickName'>
             <p>{data.nickName}</p>
           </Row>
           <Row className='justify-content-center'>
