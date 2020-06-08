@@ -18,50 +18,144 @@
   text-align: center;
 }
 
-.test0 {
-  background: url("https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/HomeImage%2FAAA-EOS2019-12.jpg?alt=media&token=1a75e6a8-086b-440c-8e9e-7b75522f455f");
-  -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
-  clip-path: polygon(0 0, 50% 100%, 100% 0);
-  width: 70vh;
-  height: 60vh;
-  background-repeat: no-repeat;
-  background-position: 45% 10%;
-  top: -2vh;
-  background-size: 200%;
-  position: fixed;
-  z-index: -100;
-  right: 56vh;
-}
+@media screen and (min-width: 1720px) {
+  .bg-left {
+    background: url("https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/HomeImage%2FAAA-EOS2019-12.jpg?alt=media&token=1a75e6a8-086b-440c-8e9e-7b75522f455f");
+    -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    width: 66vh;
+    height: 56vh;
+    background-repeat: no-repeat;
+    background-position: 45% 10%;
+    top: -2vh;
+    background-size: 200%;
+    position: fixed;
+    z-index: -100;
+    right: 56vh;
+  }
 
-.test1 {
-  background: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2FAAA-EOS2019-2.jpg?alt=media&token=da4c61d1-01d0-4a80-9d60-87b109695f19");
-  -webkit-clip-path: polygon(51% 0, 0% 100%, 100% 100%);
-  clip-path: polygon(52% 0, 0% 100%, 100% 100%);
-  width: 68vh;
-  height: 60vh;
-  background-size: 140%;
-  background-repeat: no-repeat;
-  background-position: 45% 0%;
-  top: -3vh;
-  position: fixed;
-  z-index: -100;
-  right: 20vh;
-}
-.test2 {
-  background: url("https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/HomeImage%2F2018GA-aAa-L10.jpg?alt=media&token=69b85bc3-2346-49fd-9c24-a5cba47ca7b5");
-  -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
-  clip-path: polygon(0 0, 50% 100%, 100% 0);
-  width: 70vh;
-  height: 60vh;
-  top: 59vh;
-  background-size: 150%;
-  background-repeat: no-repeat;
-  background-position: 70% 140%;
-  position: fixed;
-  z-index: -100;
-  right: 20vh;
-}
+  .bg-top {
+    background: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2FAAA-EOS2019-2.jpg?alt=media&token=da4c61d1-01d0-4a80-9d60-87b109695f19");
+    -webkit-clip-path: polygon(51% 0, 0% 100%, 100% 100%);
+    clip-path: polygon(52% 0, 0% 100%, 100% 100%);
+    width: 64vh;
+    height: 56vh;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: 45% 0%;
+    top: -3vh;
+    position: fixed;
+    z-index: -100;
+    right: 22vh;
+  }
 
+  .bg-bottom {
+    background: url("https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/HomeImage%2F2018GA-aAa-L10.jpg?alt=media&token=69b85bc3-2346-49fd-9c24-a5cba47ca7b5");
+    -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    width: 66vh;
+    height: 56vh;
+    top: 55vh;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 70% 140%;
+    position: fixed;
+    z-index: -100;
+    right: 22vh;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1720px) {
+  .bg-left {
+    background: url("https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/HomeImage%2FAAA-EOS2019-12.jpg?alt=media&token=1a75e6a8-086b-440c-8e9e-7b75522f455f");
+    -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    width: 70vh;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: 45% 10%;
+    top: -2vh;
+    background-size: 200%;
+    position: fixed;
+    z-index: -100;
+    right: 56vh;
+  }
+
+  .bg-top {
+    background: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2FAAA-EOS2019-2.jpg?alt=media&token=da4c61d1-01d0-4a80-9d60-87b109695f19");
+    -webkit-clip-path: polygon(51% 0, 0% 100%, 100% 100%);
+    clip-path: polygon(52% 0, 0% 100%, 100% 100%);
+    width: 68vh;
+    height: 60vh;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: 45% 0%;
+    top: -3vh;
+    position: fixed;
+    z-index: -100;
+    right: 20vh;
+  }
+
+  .bg-bottom {
+    background: url("https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/HomeImage%2F2018GA-aAa-L10.jpg?alt=media&token=69b85bc3-2346-49fd-9c24-a5cba47ca7b5");
+    -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    width: 70vh;
+    height: 60vh;
+    top: 59vh;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 70% 140%;
+    position: fixed;
+    z-index: -100;
+    right: 20vh;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .bg-left {
+    background: url("https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/HomeImage%2FAAA-EOS2019-12.jpg?alt=media&token=1a75e6a8-086b-440c-8e9e-7b75522f455f");
+    -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    width: 72vh;
+    height: 62vh;
+    background-repeat: no-repeat;
+    background-position: 45% 10%;
+    top: -2vh;
+    background-size: 200%;
+    position: fixed;
+    z-index: -100;
+    right: 56vh;
+  }
+
+  .bg-top {
+    background: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2FAAA-EOS2019-2.jpg?alt=media&token=da4c61d1-01d0-4a80-9d60-87b109695f19");
+    -webkit-clip-path: polygon(51% 0, 0% 100%, 100% 100%);
+    clip-path: polygon(52% 0, 0% 100%, 100% 100%);
+    width: 70vh;
+    height: 62vh;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: 45% 0%;
+    top: -3vh;
+    position: fixed;
+    z-index: -100;
+    right: 19vh;
+  }
+
+  .bg-bottom {
+    background: url("https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/HomeImage%2F2018GA-aAa-L10.jpg?alt=media&token=69b85bc3-2346-49fd-9c24-a5cba47ca7b5");
+    -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    width: 72vh;
+    height: 62vh;
+    top: 61vh;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 70% 140%;
+    position: fixed;
+    z-index: -100;
+    right: 19vh;
+  }
+}
 .section {
   padding-top: 30vh;
   position: relative;

@@ -1,8 +1,10 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
-import TwitchComponent from "./../../components/twitch/TwitchComponent";
-import "./webTvTwitch.css";
 import { useSelector } from "react-redux";
+
+import { Row, Col, Container } from "react-bootstrap";
+import "./webTvTwitch.css";
+
+import TwitchComponent from "./../../components/twitch/TwitchComponent";
 import StreamerComponent from "./../../components/twitch/StreamerComponent";
 import WaitData from "./../../components/Spinner/WaitData";
 
@@ -34,7 +36,7 @@ const WebTvTwitch = () => {
             alt='logo-evo'
           />
         </Row>
-        <Row className='d-flex justify-content-center'>
+        <Row className='justify-content-md-center'>
           <TwitchComponent channelName={channel} />
         </Row>
         <Row className='tv-buttons d-flex justify-content-center p-4'>
@@ -59,27 +61,29 @@ const WebTvTwitch = () => {
             />
           </a>
         </Row>
-      </Container>
 
-      <Container fluid className='streamers'>
-        <Row className='d-flex justify-content-center p-5 streamers-title'>
-          NOS STREAMERS
-        </Row>
-        <Row>
-          <Col className='offset-2 col-8'>
-            <Row className='p-3'>
-              {players
-                .filter((player) => player.isStreamer === "true")
-                .map((player, index) => {
-                  return (
-                    <StreamerComponent
-                      playersData={player}
-                      handleClick={handleClick}
-                      stateId={state.id}
-                      key={index}
-                    />
-                  );
-                })}
+        <Row fluid className='streamers'>
+          <Col>
+            <Row className='d-flex justify-content-center p-5 streamers-title'>
+              NOS STREAMERS
+            </Row>
+            <Row className='justify-content-md-center'>
+              <Col md={12} lg={8}>
+                <Row className='pt-3 pb-3'>
+                  {players
+                    .filter((player) => player.isStreamer === "true")
+                    .map((player, index) => {
+                      return (
+                        <StreamerComponent
+                          playersData={player}
+                          handleClick={handleClick}
+                          stateId={state.id}
+                          key={index}
+                        />
+                      );
+                    })}
+                </Row>
+              </Col>
             </Row>
           </Col>
         </Row>

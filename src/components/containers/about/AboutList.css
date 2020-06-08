@@ -9,14 +9,24 @@
 .about-section div:nth-child(2) div {
   background-color: transparent;
 }
-.about-section div:nth-child(3) {
-  background: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2FAAA-EOS2019-19.jpg?alt=media&token=5047983a-c483-4172-beb5-dca1a1c8e5fe")
-    right top;
-  background-size: auto 110%;
-  background-repeat: no-repeat;
-}
 
-.about-section div:nth-child(3) div {
-  max-width: 70%;
-  background-color: transparent;
+@media screen and (min-width: 900px) {
+  .about-section div:nth-child(3) {
+    background: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2FAAA-EOS2019-19.jpg?alt=media&token=5047983a-c483-4172-beb5-dca1a1c8e5fe")
+      right top;
+    background-size: auto 110%;
+    background-repeat: no-repeat;
+  }
+  .about-section div:nth-child(3) div {
+    max-width: 70%;
+    background-color: transparent;
+  }
+}
+@media screen and (max-width: 900px) {
+  .about-section div:nth-child(3) {
+    background-color: transparent;
+  }
+  .about-section div:nth-child(3) div {
+    background-color: transparent;
+  }
 }

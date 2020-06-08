@@ -1,0 +1,32 @@
+.legal-content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.legal-content p {
+  text-align: justify;
+}
+
+.legal-content ul {
+  padding-left: 0;
+}
+
+.legal-content li {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.legal-content li h4 {
+  font-size: 22px;
+  margin-right: 10px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.legal-content li p {
+  line-height: 1.8;
+  margin-bottom: 0;
+  font-size: 18px;
+}

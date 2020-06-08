@@ -1,19 +1,28 @@
 import React from "react";
-import { Row } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "./HeaderBloc.css";
 
 const HeaderBloc = ({ background, firstTitle, secondTitle, button }) => {
   return (
     <Row
-      className='d-flex flex-column justify-content-center header-title p-5'
-      style={background}>
-      {firstTitle ? firstTitle : ""}
-      {secondTitle ? secondTitle : ""}
-      {button ? (
-        <div className='d-flex justify-content-center p-1'>{button}</div>
-      ) : (
-        ""
-      )}
+      className="justify-content-center header-title pt-5 pb-5"
+      style={background}
+    >
+      <Col md={12} lg={8}>
+        <Row>
+          <Col md={12} lg={12}>
+            {firstTitle ? firstTitle : ""}
+          </Col>
+          <Col md={12} lg={12}>
+            {secondTitle ? secondTitle : ""}
+          </Col>
+        </Row>
+        {button ? (
+          <div className="d-flex justify-content-center p-1">{button}</div>
+        ) : (
+          ""
+        )}
+      </Col>
     </Row>
   );
 };

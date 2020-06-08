@@ -15,9 +15,17 @@ const AboutPage = () => {
             borderBottom: "solid 3px #c8d600",
           }}
           firstTitle={
-            <h1 style={{ marginTop: 10, fontFamily: "KoratakiW01-Book" }}>
-              <span className='hashtag'>#</span>WeAre
-              <span className='yellow-title' style={{ fontSize: 36 }}>
+            <h1
+              style={{
+                marginTop: 10,
+                justifyContent: "center",
+                display: "flex",
+                flexWrap: "wrap",
+                fontFamily: "KoratakiW01-Book",
+              }}
+            >
+              <span className="hashtag">#</span>WeAre
+              <span className="yellow-title" style={{ fontSize: 36 }}>
                 EVO
               </span>
             </h1>
@@ -25,12 +33,13 @@ const AboutPage = () => {
           secondTitle={
             <h2 style={{ fontFamily: "Bebas Neue", fontSize: 36 }}>
               <span
-                className='yellow-title'
+                className="yellow-title"
                 style={{
                   fontFamily: "Bebas Neue",
                   fontSize: 36,
                   letterSpacing: 10,
-                }}>
+                }}
+              >
                 TOGETHER
               </span>
               , WE STAND

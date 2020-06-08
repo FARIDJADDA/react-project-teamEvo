@@ -4,8 +4,8 @@ import "./AboutComponent.css";
 
 const AboutComponent = ({ about }) => {
   return (
-    <Row>
-      <Col className="about-content offset-2 col-8">
+    <Row className="justify-content-md-center">
+      <Col md={12} lg={8} className="about-content">
         {about.image ? (
           <>
             <img src={about.image} alt="maillot" />

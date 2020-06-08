@@ -16,7 +16,7 @@
 .headerCdpr {
   font-style: italic;
   text-align: center;
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2Favaa-06-25.png?alt=media&token=a50f9414-1697-4dac-b033-96f14e320b19);
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/react-project-team-evo.appspot.com/o/HomeImage%2Favaa-06-25.png?alt=media&token=a50f9414-1697-4dac-b033-96f14e320b19");
   background-size: 100% 320%;
   background-position: center 35%;
   height: 26vh;
@@ -24,7 +24,7 @@
   border-bottom: solid 2px #c8d600;
 }
 
-.headerCdpr p {
+.headerCdpr h3 {
   font-family: "KoratakiW01-Book";
   font-size: 30px;
   margin: 0;

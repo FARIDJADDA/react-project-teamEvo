@@ -1,29 +1,23 @@
 import React from "react";
 import "./navBar.css";
+import { NavDropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-
 const NavDropdownCusto = ({ data }) => {
   let child = data.children;
   return (
     <>
-      <div className='drop-down'>
-        <NavLink
-          role='button'
-          to='/about'
-          className='btn btn-link drop-btn white'>
-          {data.text}
-        </NavLink>
-        <div className='drop-down-content'>
-          {child.map((e, index) => {
-            return (
-              <NavLink to={`${data.url}${e.url}`} key={index} className='white'>
-                {" "}
-                {e.text}{" "}
-              </NavLink>
-            );
-          })}
-        </div>
-      </div>
+      <NavDropdown
+        title={data.text}
+        id='basic-nav-dropdown'
+        className='drop-down about-button'>
+        {child.map((e, index) => {
+          return (
+            <NavDropdown.Item key={index} className='dropdown-color'>
+              <NavLink to={`${data.url}${e.url}`}>{e.text}</NavLink>
+            </NavDropdown.Item>
+          );
+        })}
+      </NavDropdown>
     </>
   );
 };

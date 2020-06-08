@@ -44,31 +44,37 @@
 
   {
     "type": "link",
-    "url": "/about",
+    "url": "",
     "text": "ABOUT",
     "enabled": "true",
     "children": [
       {
         "type": "link",
-        "url": "/staff",
+        "url": "/about",
+        "text": "ABOUT US",
+        "enabled": "true"
+      },
+      {
+        "type": "link",
+        "url": "/about/staff",
         "text": "STAFF",
         "enabled": "true"
       },
       {
         "type": "link",
-        "url": "/valuesAndVisions",
+        "url": "/about/valuesAndVisions",
         "text": "VALUES AND VISIONS",
         "enabled": "true"
       },
       {
         "type": "link",
-        "url": "/cdpr",
+        "url": "/about/cdpr",
         "text": "CDPR",
         "enabled": "true"
       },
       {
         "type": "link",
-        "url": "/legalNotice",
+        "url": "/about/legalNotice",
         "text": "LEGAL NOTICE",
         "enabled": "true"
       }
