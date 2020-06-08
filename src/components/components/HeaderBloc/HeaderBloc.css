@@ -16,11 +16,13 @@
   letter-spacing: 10px;
 }
 
-.hashtag {
-  font-size: 60px;
-  position: relative;
-  top: 15px;
-  margin-right: 8px;
+@media screen and (min-width: 900px) {
+  .hashtag {
+    font-size: 60px;
+    position: relative;
+    top: -10px;
+    margin-right: 8px;
+  }
 }
 
 .header-title button:focus {
