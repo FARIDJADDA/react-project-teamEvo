@@ -10,7 +10,7 @@ import {
 const StreamerComponent = ({ playersData, stateId, handleClick }) => {
   return (
     <>
-      <Col className='col-4 p-2'>
+      <Col md={6} lg={4} className='p-3'>
         <div
           type='button'
           className={

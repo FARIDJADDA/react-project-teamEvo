@@ -43,7 +43,7 @@ function StaffList() {
           })}
       </Row>
 
-      <Row className='justify-content-md-center bg-text p-5'>
+      <Row className='justify-content-md-center bg-text pt-5 pb-5'>
         <Col md={12} lg={8}>
           {staffText.map((data, index) => {
             return <StaffTextComponent key={index} data={data} />;
