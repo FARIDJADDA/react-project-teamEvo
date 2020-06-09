@@ -66,10 +66,14 @@
     margin-left: 5px;
     background-color: #c8d600 !important ;
   }
-}
-
-@media screen and (max-width: 600px) {
+  .about-content {
+    display: flex;
+  }
   .divImage {
     width: auto;
+  }
+  .about-content {
+    display: flex;
+    overflow: auto;
   }
 }
