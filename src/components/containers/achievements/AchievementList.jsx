@@ -29,7 +29,7 @@ function AchievementList() {
         </div>
       </Row>
       {achievements2020.length > 0 ? (
-        <Row>
+        <Row className='justify-content-center'>
           <AchievementComponent title='2k20' achievements={achievements2020} />
         </Row>
       ) : (

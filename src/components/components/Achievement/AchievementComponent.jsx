@@ -4,8 +4,8 @@ import "./AchievementCommponent.css";
 
 const AchievementComponent = ({ achievements, title }) => {
   return (
-    <Col className='offset-3 col-6 achievement-content'>
-      <Row>
+    <Col md={12} lg={6} className='achievement-content'>
+      <Row className='yellow-bar-content'>
         <div className='yellow-bar'></div>
         <h1 className='year-title'>{title}</h1>
         <div className='yellow-bar'></div>

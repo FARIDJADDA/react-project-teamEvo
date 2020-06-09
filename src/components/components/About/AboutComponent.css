@@ -20,10 +20,10 @@
   font-size: 20px;
   font-weight: 1;
   text-align: justify;
-  /* padding-right: 0; */
 }
+
 .divImage {
-  padding: 0 15px;
+  padding: 5px 15px;
   width: 600px;
   position: absolute;
   right: 0;
@@ -65,5 +65,11 @@
     top: 4px;
     margin-left: 5px;
     background-color: #c8d600 !important ;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .divImage {
+    width: auto;
   }
 }

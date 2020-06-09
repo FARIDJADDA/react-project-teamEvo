@@ -46,6 +46,12 @@
   background-color: #c8d600;
 }
 
+@media screen and (max-width: 600px) {
+  .yellowBox {
+    display: none;
+  }
+}
+
 .rightPosition {
   position: absolute;
   right: 0;
