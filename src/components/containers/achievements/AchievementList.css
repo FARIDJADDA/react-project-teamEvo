@@ -36,6 +36,15 @@
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  .achievement-title h1 {
+    font-size: 20px !important;
+  }
+  .achievement-title h2 {
+    display: none;
+  }
+}
+
 .hashtag-little {
   font-size: 44px;
   position: relative;

@@ -34,6 +34,19 @@
   width: 37.5%;
 }
 
+@media screen and (max-width: 900px) {
+  .yellow-bar {
+    display: none;
+  }
+  .year-title {
+    margin-left: 50px;
+    font-size: 2.5vw !important;
+  }
+  .achievement-details p {
+    font-size: 18px;
+  }
+}
+
 .year-title {
   width: 25%;
   text-align: center;
