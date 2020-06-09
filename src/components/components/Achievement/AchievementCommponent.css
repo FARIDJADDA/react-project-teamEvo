@@ -39,11 +39,21 @@
     display: none;
   }
   .year-title {
-    margin-left: 50px;
+    margin: 0 auto;
     font-size: 2.5vw !important;
   }
   .achievement-details p {
     font-size: 18px;
+  }
+  .achievement-content img {
+    height: 60px;
+    width: 60px;
+    margin-left: 0;
+  }
+  .achievement-details .result {
+    position: absolute;
+    right: 20px;
+    margin: auto 0 auto 0;
   }
 }
 
