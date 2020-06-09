@@ -18,7 +18,12 @@ const FullNavBar = () => {
   const navs = useSelector((state) => state.navs);
   return (
     <>
-      <Navbar className='navbarcustom' id='navbar' variant='dark' expand='lg'>
+      <Navbar
+        className='navbarcustom'
+        id='navbar'
+        variant='dark'
+        expand='lg'
+        fixed='top'>
         <Navbar.Brand className='white' href='/home'>
           <img
             className='logo-rond'
