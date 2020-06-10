@@ -160,10 +160,7 @@
   padding-top: 30vh;
   position: relative;
   margin: 0 90px;
-  height: 650px;
-}
-.paragraph {
-  text-align: justify;
+  height: 100%;
 }
 
 .title {
@@ -227,7 +224,8 @@
 }
 
 .paragraph {
-  margin-bottom: 70px;
+  text-align: justify;
+  margin-bottom: 100px;
   font-size: 16px;
 }
 .home-container {

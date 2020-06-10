@@ -16,9 +16,11 @@ import { NavLink } from "react-router-dom";
 
 const FullNavBar = () => {
   const navs = useSelector((state) => state.navs);
+  const [expanded, setExpanded] = React.useState(false);
   return (
     <>
       <Navbar
+        expanded={expanded}
         className='navbarcustom'
         id='navbar'
         variant='dark'
@@ -36,12 +38,19 @@ const FullNavBar = () => {
             src='https://firebasestorage.googleapis.com/v0/b/projet-teamevo.appspot.com/o/imageEvo%2Flogo-teamevo.png?alt=media&token=ba39d186-ba00-4912-8a73-33b833c9ff37'
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls='basic-navbar-nav' />
+        <Navbar.Toggle
+          onClick={() => setExpanded(expanded ? false : "expanded")}
+          aria-controls='basic-navbar-nav'
+        />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto white'>
             {navs.map((route, index) => {
               return !route.children ? (
-                <NavLink className='white navlink' to={route.url} key={index}>
+                <NavLink
+                  onClick={() => setExpanded(false)}
+                  className='white navlink'
+                  to={route.url}
+                  key={index}>
                   {route.text}
                 </NavLink>
               ) : (
