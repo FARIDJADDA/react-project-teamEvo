@@ -5,7 +5,7 @@ const TwitchComponent = ({ channelName }) => {
     <>
       <iframe
         title='video'
-        src={`https://player.twitch.tv/?channel=${channelName}`}
+        src={`https://player.twitch.tv/?channel=${channelName}&parent=react-project-team-evo.firebaseapp.com/webTv&parent=react-project-team-evo.web.app`}
         height='600'
         width='950'
         frameBorder='0'
