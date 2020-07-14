@@ -1,4 +1,4 @@
-import api from "./../../../app/instancedev";
+import api from "./../../../app/instance";
 import { FETCH_STAFF_TEXT } from "./type";
 
 const fetchStaffText = (staffText) => ({
@@ -8,7 +8,7 @@ const fetchStaffText = (staffText) => ({
 
 export const fetchAllStaffText = () => (dispatch) => {
   api
-    .get("staffText.json")
+    .get("onManageStaffText")
     .then((response) => {
       dispatch(fetchStaffText(response.data));
     })

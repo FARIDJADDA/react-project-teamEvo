@@ -1,4 +1,4 @@
-import api from "./../../../app/instancedev";
+import api from "./../../../app/instance";
 import { FETCH_PARTNERS } from "./type";
 
 const fetchPartners = (partners) => ({
@@ -8,7 +8,7 @@ const fetchPartners = (partners) => ({
 
 export const fetchAllPartners = () => (dispatch) => {
   api
-    .get("partners.json")
+    .get("onManagePartners")
     .then((response) => {
       dispatch(fetchPartners(response.data));
     })

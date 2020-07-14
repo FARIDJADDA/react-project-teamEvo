@@ -3,7 +3,9 @@ import { Row, Col } from "react-bootstrap";
 import "./PartnerDetail.css";
 
 const PartnerDetail = ({ partner }) => {
-  console.log(partner);
+  if (!partner.details) {
+    return null;
+  }
   return (
     <Col md={12} lg={12}>
       {partner ? (

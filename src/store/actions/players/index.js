@@ -1,4 +1,4 @@
-import api from "./../../../app/instancedev";
+import api from "./../../../app/instance";
 import { FETCH_PLAYERS } from "./type";
 
 const fetchPlayers = (players) => ({
@@ -8,7 +8,7 @@ const fetchPlayers = (players) => ({
 
 export const fetchAllPlayers = () => (dispatch) => {
   api
-    .get("players.json")
+    .get("onManagePlayers")
     .then((response) => {
       dispatch(fetchPlayers(response.data));
     })

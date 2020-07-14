@@ -1,8 +1,7 @@
-// import axios from "axios";
+import axios from "axios";
 
-// const api = axios.create({
-//   baseURL: "https://europe-west3-projet-teamevo.cloudfunctions.net",
-//   timeout: 1000,
-// });
+const api = axios.create({
+  baseURL: "https://europe-west3-team-evo-a891c.cloudfunctions.net/",
+});
 
-// export default api;
+export default api;

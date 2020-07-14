@@ -1,4 +1,4 @@
-import api from "./../../../app/instancedev";
+import api from "./../../../app/instance";
 import { FETCH_VISION } from "./type";
 
 const fetchVision = (vision) => ({
@@ -8,7 +8,7 @@ const fetchVision = (vision) => ({
 
 export const fetchAllVision = () => (dispatch) => {
   api
-    .get("vision.json")
+    .get("onManageValues")
     .then((response) => {
       dispatch(fetchVision(response.data));
     })

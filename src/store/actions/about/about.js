@@ -1,4 +1,4 @@
-import api from "./../../../app/instancedev";
+import api from "./../../../app/instance";
 import { FETCH_ABOUT } from "./type";
 
 const fetchAbout = (about) => ({
@@ -8,7 +8,7 @@ const fetchAbout = (about) => ({
 
 export const fetchAllAbout = () => (dispatch) => {
   api
-    .get("about.json")
+    .get("onManageAbout")
     .then((response) => {
       dispatch(fetchAbout(response.data));
     })

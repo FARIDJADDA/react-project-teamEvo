@@ -1,4 +1,4 @@
-import api from "./../../../app/instancedev";
+import api from "./../../../app/instance";
 import { FETCH_GAME } from "./type";
 
 const fetchGames = (games) => ({
@@ -8,7 +8,7 @@ const fetchGames = (games) => ({
 
 export const fetchAllGames = () => (dispatch) => {
   api
-    .get("games.json")
+    .get("onManageGames")
     .then((response) => {
       dispatch(fetchGames(response.data));
     })

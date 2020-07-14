@@ -1,4 +1,4 @@
-import api from "./../../../app/instancedev";
+import api from "./../../../app/instance";
 import { FETCH_STAFF } from "./type";
 
 const fetchStaff = (staff) => ({
@@ -8,7 +8,7 @@ const fetchStaff = (staff) => ({
 
 export const fetchAllStaff = () => (dispatch) => {
   api
-    .get("staff.json")
+    .get("onManageStaffs")
     .then((response) => {
       dispatch(fetchStaff(response.data));
     })

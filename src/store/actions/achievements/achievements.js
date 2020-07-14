@@ -1,4 +1,4 @@
-import api from "./../../../app/instancedev";
+import api from "./../../../app/instance";
 import { FETCH_ACHIEVEMENTS } from "./type";
 
 const fetchAchievements = (achievements) => ({
@@ -8,7 +8,7 @@ const fetchAchievements = (achievements) => ({
 
 export const fetchAllAchievements = () => (dispatch) => {
   api
-    .get("achievements.json")
+    .get("onManageAchievements")
     .then((response) => {
       dispatch(fetchAchievements(response.data));
     })

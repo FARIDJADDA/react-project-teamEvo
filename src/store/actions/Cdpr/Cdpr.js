@@ -1,4 +1,4 @@
-import api from "./../../../app/instancedev";
+import api from "./../../../app/instance";
 import { FETCH_CDPR } from "./type";
 
 const fetchCdpr = (cdpr) => ({
@@ -8,7 +8,7 @@ const fetchCdpr = (cdpr) => ({
 
 export const fetchAllCdpr = () => (dispatch) => {
   api
-    .get("Cdpr.json")
+    .get("onManageCdpr")
     .then((response) => {
       dispatch(fetchCdpr(response.data));
     })
