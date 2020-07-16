@@ -15,34 +15,34 @@ const Home = () => {
 
   return (
     <>
-      <Container fluid dark>
-        <Row className="home-container">
+      <Container fluid dark='true'>
+        <Row className='home-container'>
           <Col sm={12} md={12} lg={6}>
-            {home.map((data) => {
-              return <HomeContent id={data.page} homeData={data} />;
+            {home.map((data, index) => {
+              return <HomeContent key={index} id={data.page} homeData={data} />;
             })}
           </Col>
-          <Col fluid md={12} lg={9}>
+          <Col fluid='true' md={12} lg={9}>
             <div>
-              <div className="bg-left"></div>
+              <div className='bg-left'></div>
             </div>
             <div>
-              <div className="bg-top"></div>
+              <div className='bg-top'></div>
             </div>
             <div>
-              <div className="bg-bottom"></div>
+              <div className='bg-bottom'></div>
             </div>
           </Col>
         </Row>
       </Container>
-      <div className="sideBar list-group" id="sidebar">
-        <a href="#1">
-          <FontAwesomeIcon icon={faArrowCircleUp} color="white" />
+      <div className='sideBar list-group' id='sidebar'>
+        <a href='#1'>
+          <FontAwesomeIcon icon={faArrowCircleUp} color='white' />
         </a>
-        <FontAwesomeIcon icon={faCircle} color="white" />
-        <FontAwesomeIcon icon={faCircle} color="white" />
-        <a href="#2">
-          <FontAwesomeIcon icon={faArrowCircleDown} color="white" />
+        <FontAwesomeIcon icon={faCircle} color='white' />
+        <FontAwesomeIcon icon={faCircle} color='white' />
+        <a href='#2'>
+          <FontAwesomeIcon icon={faArrowCircleDown} color='white' />
         </a>
       </div>
     </>

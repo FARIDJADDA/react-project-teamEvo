@@ -1,4 +1,4 @@
-import api from "./../../../app/instancedev";
+import api from "./../../../app/instance";
 import { FETCH_HOME } from "./type";
 
 const fetchHome = (home) => ({
@@ -8,7 +8,7 @@ const fetchHome = (home) => ({
 
 export const fetchAllHome = () => (dispatch) => {
   api
-    .get("home.json")
+    .get("onManageHome")
     .then((response) => {
       dispatch(fetchHome(response.data));
     })

@@ -1,4 +1,4 @@
-import api from "./../../../app/instancedev";
+import api from "./../../../app/instance";
 import { FETCH_FOOTER } from "./type";
 
 const fetchFooter = (footer) => ({
@@ -8,7 +8,7 @@ const fetchFooter = (footer) => ({
 
 export const fetchAllFooter = () => (dispatch) => {
   api
-    .get("foot.json")
+    .get("onManageFoot")
     .then((response) => {
       dispatch(fetchFooter(response.data));
     })

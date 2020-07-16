@@ -1,4 +1,4 @@
-import api from "./../../../app/instancedev";
+import api from "./../../../app/instance";
 import { FETCH_LEGAL } from "./type";
 
 const fetchLegal = (legal) => ({
@@ -8,7 +8,7 @@ const fetchLegal = (legal) => ({
 
 export const fetchAllLegal = () => (dispatch) => {
   api
-    .get("legal.json")
+    .get("onManageLegal")
     .then((response) => {
       dispatch(fetchLegal(response.data));
     })
