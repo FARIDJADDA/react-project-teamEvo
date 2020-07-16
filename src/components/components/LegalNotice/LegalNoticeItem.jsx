@@ -9,33 +9,35 @@ const LegalNoticeItem = ({ data }) => {
       <Col md={12} lg={8}>
         <h1>{data.title}</h1>
         <p>{data.text}</p>
-        {data.list && (
+        {data.position === 1 ? (
           <ul>
             <li>
               <h4>Propriétaire:</h4>
-              <p>{data.list.owner}</p>
+              <p>{data.owner}</p>
             </li>
             <li>
               <h4>Créateur:</h4>
-              <p>{data.list.creator}</p>
+              <p>{data.creator}</p>
             </li>
             <li>
               <h4>Responsable Publication:</h4>
-              <p>{data.list.publisher}</p>
+              <p>{data.publisher}</p>
             </li>
             <li>
               <h4>Webmaster:</h4>
-              <p>{data.list.webmaster}</p>
+              <p>{data.webmaster}</p>
             </li>
             <li>
               <h4>Hébergeur:</h4>
-              <p>{data.list.hoster}</p>
+              <p>{data.hoster}</p>
             </li>
             <li>
               <h4>Crédits:</h4>
-              <p>{data.list.credits}</p>
+              <p>{data.credits}</p>
             </li>
           </ul>
+        ) : (
+          ""
         )}
       </Col>
     </Row>

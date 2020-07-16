@@ -1,4 +1,3 @@
-// App.js
 import React, { Component } from "react";
 import Footer from "./components/structure/footer/Footer";
 import RouteList from "./components/Routes/Routes";
