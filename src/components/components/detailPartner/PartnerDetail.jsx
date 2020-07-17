@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 import "./PartnerDetail.css";
 
 const PartnerDetail = ({ partner }) => {
-  if (!partner.details) {
+  if (!partner.detail) {
     return null;
   }
   return (
