@@ -18,9 +18,13 @@ const Home = () => {
       <Container fluid dark='true'>
         <Row className='home-container'>
           <Col sm={12} md={12} lg={6}>
-            {home.map((data, index) => {
-              return <HomeContent key={index} id={data.page} homeData={data} />;
-            })}
+            {home
+              .sort((elem1, elem2) => elem1.page - elem2.page)
+              .map((data, index) => {
+                return (
+                  <HomeContent key={index} id={data.page} homeData={data} />
+                );
+              })}
           </Col>
           <Col fluid='true' md={12} lg={9}>
             <div>
