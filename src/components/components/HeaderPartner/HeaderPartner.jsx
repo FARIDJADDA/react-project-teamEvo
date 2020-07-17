@@ -9,7 +9,7 @@ const HeaderPartner = () => {
         <span className='yellowWord'>TOGETHER</span>, WE STAND
       </h4>
       <button type='button' class='buttonYellow'>
-        <a href='mailto:exemple@team-evo.com'> Contactez-moi </a>
+        <a href='mailto:exemple@team-evo.com'>BECOME PARTNERS</a>
       </button>
     </div>
   );
