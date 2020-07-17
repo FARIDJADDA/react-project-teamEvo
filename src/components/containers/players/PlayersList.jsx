@@ -25,27 +25,29 @@ function PlayersList() {
         <Row className='bg-game'>
           <Col className='offset-2 col-8 d-flex justify-content-center'>
             <Row className='p-2'>
-              {games.map((game, index) => {
-                return (
-                  <Col key={index}>
-                    <button
-                      onClick={() => {
-                        handleClick(game.title);
-                      }}
-                      className={
-                        state.game === game.title
-                          ? "btn btn-link btn-game activeGame"
-                          : "btn btn-link btn-game"
-                      }>
-                      <img
-                        alt='gameImage'
-                        className='gameImage'
-                        src={game.image}
-                      />
-                    </button>
-                  </Col>
-                );
-              })}
+              {games
+                .sort((game1, game2) => game1.position - game2.position)
+                .map((game, index) => {
+                  return (
+                    <Col key={index}>
+                      <button
+                        onClick={() => {
+                          handleClick(game.title);
+                        }}
+                        className={
+                          state.game === game.title
+                            ? "btn btn-link btn-game activeGame"
+                            : "btn btn-link btn-game"
+                        }>
+                        <img
+                          alt='gameImage'
+                          className='gameImage'
+                          src={game.image}
+                        />
+                      </button>
+                    </Col>
+                  );
+                })}
             </Row>
           </Col>
         </Row>
