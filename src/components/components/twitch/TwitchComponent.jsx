@@ -5,7 +5,7 @@ const TwitchComponent = ({ channelName }) => {
     <>
       <iframe
         title='video'
-        src={`https://player.twitch.tv/?channel=${channelName}&parent=localhost`}
+        src={`https://player.twitch.tv/?channel=${channelName}&parent=react-project-team-evo`}
         height='600'
         width='950'
         frameBorder='0'
@@ -16,7 +16,7 @@ const TwitchComponent = ({ channelName }) => {
         title='chat'
         id='chat_embed'
         frameBorder='0'
-        src={`https://www.twitch.tv/embed/${channelName}/chat?darkpopout&parent=localhost`}
+        src={`https://www.twitch.tv/embed/${channelName}/chat?darkpopout&parent=react-project-team-evo`}
         height='600'
         width='350'
         style={{ marginLeft: 50 }}
