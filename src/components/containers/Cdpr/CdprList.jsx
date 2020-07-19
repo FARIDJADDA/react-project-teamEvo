@@ -14,16 +14,16 @@ const CdprList = () => {
   return (
     <>
       <Container fluid>
-        <Row className="justify-content-md-center">
-          <Col className="headerCdpr p-5">
+        <Row className='justify-content-md-center'>
+          <Col className='headerCdpr p-5'>
             <h3>Team Evo</h3>
-            <h3 className="yellowColor">Privacy Policy</h3>
+            <h3 className='yellowColor'>Privacy Policy</h3>
           </Col>
         </Row>
-        <Row className="justify-content-md-center">
-          <Col md={12} lg={8} className="pt-3">
-            {cdpr.map((element) => {
-              return <CdprComponent data={element} />;
+        <Row className='justify-content-md-center'>
+          <Col md={12} lg={8} className='pt-3'>
+            {cdpr.map((element, index) => {
+              return <CdprComponent key={index} data={element} />;
             })}
           </Col>
         </Row>

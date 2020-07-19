@@ -10,7 +10,7 @@ function PartnersList() {
   if (!partners.length) {
     return <WaitData />;
   }
-  console.log(partners);
+
   return (
     <Container fluid>
       {partners.map((partner, index) => {

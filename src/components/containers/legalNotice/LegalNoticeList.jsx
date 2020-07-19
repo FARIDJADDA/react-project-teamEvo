@@ -27,8 +27,8 @@ const LegalNoticeList = () => {
           </h1>
         }
       />
-      {legal.map((data) => {
-        return <LegalNoticeItem data={data} />;
+      {legal.map((data, index) => {
+        return <LegalNoticeItem key={index} data={data} />;
       })}
     </Container>
   );

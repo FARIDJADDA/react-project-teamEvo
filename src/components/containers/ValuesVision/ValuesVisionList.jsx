@@ -42,8 +42,8 @@ const ValuesVisionsList = () => {
 
       {valuesAndVisions
         .filter((data) => data.filter === "our values")
-        .map((data) => {
-          return <ValuesItem data={data} />;
+        .map((data, index) => {
+          return <ValuesItem key={index} data={data} />;
         })}
 
       <HeaderBloc
@@ -73,8 +73,8 @@ const ValuesVisionsList = () => {
 
       {valuesAndVisions
         .filter((data) => data.filter === "code of conduct")
-        .map((data) => {
-          return <ValuesItem data={data} />;
+        .map((data, index) => {
+          return <ValuesItem key={index} data={data} />;
         })}
 
       <HeaderBloc
@@ -98,8 +98,8 @@ const ValuesVisionsList = () => {
 
       {valuesAndVisions
         .filter((data) => data.filter === "our visions")
-        .map((data) => {
-          return <ValuesItem data={data} />;
+        .map((data, index) => {
+          return <ValuesItem key={index} data={data} />;
         })}
     </Container>
   );

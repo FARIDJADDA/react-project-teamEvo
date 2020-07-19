@@ -9,9 +9,9 @@ const PartnerDetail = ({ partner }) => {
   return (
     <Col md={12} lg={12}>
       {partner ? (
-        partner.detail.map((data) => {
+        partner.detail.map((data, index) => {
           return (
-            <Row className='detail-text'>
+            <Row key={index} className='detail-text'>
               {data.title ? <h3>{data.title}</h3> : <></>}
               {data.text ? <p>{data.text}</p> : <></>}
             </Row>

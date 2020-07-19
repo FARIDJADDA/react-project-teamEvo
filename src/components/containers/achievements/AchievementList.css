@@ -1,15 +1,15 @@
 @font-face {
   font-family: "KoratakiW01-Book";
-  src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot");
-  src: url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot?#iefix")
+  src: url("https://db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot");
+  src: url("https://db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.eot?#iefix")
       format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff2")
+    url("https://db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff2")
       format("woff2"),
-    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff")
+    url("https://db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.woff")
       format("woff"),
-    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.ttf")
+    url("https://db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.ttf")
       format("truetype"),
-    url("//db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.svg#KoratakiW01-Book")
+    url("https://db.onlinewebfonts.com/t/48e636ffd3ced89c8f6aa4b7ddfa9bca.svg#KoratakiW01-Book")
       format("svg");
 }
 

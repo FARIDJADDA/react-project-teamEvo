@@ -3,7 +3,6 @@ import { Row, Col } from "react-bootstrap";
 import "./LegalNoticeItem.css";
 
 const LegalNoticeItem = ({ data }) => {
-  console.log(data);
   return (
     <Row className='justify-content-md-center mt-4 mb-4 legal-content'>
       <Col md={12} lg={8}>
